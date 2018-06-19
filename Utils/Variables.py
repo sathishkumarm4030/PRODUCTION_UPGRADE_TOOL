@@ -36,26 +36,26 @@ def read_csv_file(filename, day, batch):
 
 def get_vd_details():
     global cpe_list
-    # ip = raw_input("Enter Versa Director IP address:\n")
-    # print "Versa director IP:" + ip
-    # ldap_user = raw_input("Enter LDAP Username for making SSH connection to VD:\n")
-    # print "Versa director Username:" + ldap_user
-    # ldap_passwd = getpass.getpass("Enter LDAP Password:\n")
-    # user = raw_input("Enter Username for making REST actions to Versa Director :\n")
-    # print "Versa director Username:" + user
-    # passwd = getpass.getpass("Enter REST Password:\n")
-    # cpe_user = raw_input("Enter Versa CPE Username:\n")
-    # print "Versa director Username:" + cpe_user
-    # cpe_passwd = getpass.getpass("Enter Versa CPE Password:\n")
+    ip = raw_input("Enter Versa Director IP address:\n")
+    print "Versa director IP:" + ip
+    ldap_user = raw_input("Enter LDAP Username for making SSH connection to VD:\n")
+    print "Versa director Username:" + ldap_user
+    ldap_passwd = getpass.getpass("Enter LDAP Password:\n")
+    user = raw_input("Enter Username for making REST actions to Versa Director :\n")
+    print "Versa director Username:" + user
+    passwd = getpass.getpass("Enter REST Password:\n")
+    cpe_user = raw_input("Enter Versa CPE Username:\n")
+    print "Versa director Username:" + cpe_user
+    cpe_passwd = getpass.getpass("Enter Versa CPE Password:\n")
     # day = int(raw_input("Enter DAY:\n"))
     # batch = int(raw_input("Enter BATCH:\n"))
-    ip = '10.91.116.35'
-    ldap_user = 'admin'
-    ldap_passwd = 'versa123'
-    user = 'Sathish'
-    passwd = 'Jan*1234'
-    cpe_user = 'admin'
-    cpe_passwd = 'versa123'
+    # ip = '10.91.116.35'
+    # ldap_user = 'admin'
+    # ldap_passwd = 'versa123'
+    # user = 'Sathish'
+    # passwd = 'Jan*1234'
+    # cpe_user = 'admin'
+    # cpe_passwd = 'versa123'
     # day = '2'
     # cpe_list = read_csv_file(cpe_details, day, batch)
     # while len(cpe_list) == 0:
