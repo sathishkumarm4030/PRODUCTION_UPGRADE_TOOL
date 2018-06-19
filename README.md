@@ -8,7 +8,7 @@ below are the packages used in script.please install pkgs before running script 
 5) json
 
 install below packages
-1) download netmiko pkg from github - git clone https://github.com/sathishkumarm4030/netmiko_enhanced.git
+1) download netmiko pkg from github - git clone https://github.com/sathishkumarm4030/netmiko_enh_june6.git
 2) cd netmiko & run "python setup.py install"
 
 step2: Update upgrade_device_list.csv for your devices
