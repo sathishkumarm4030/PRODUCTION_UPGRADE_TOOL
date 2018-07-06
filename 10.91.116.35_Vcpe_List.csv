@@ -1,0 +1,3 @@
+device_name_in_vd,ip,day,batch,org,type,softwareVersion,ping-status,sync-status,serialNo,model,existing-packageName,package_name,package_info
+CPE-27,20.20.15.27,1,1,IPC00011,branch,16.1-R2-S2.2 5cd1c58 20180505,REACHABLE,IN_SYNC,KSA1811028,FWA-2320,versa-flexvnf-20180505-164725-5cd1c58-16.1R2S2.2-wsm,FlexVNF-16.1R2S2.2-wsm.bin,versa-flexvnf-20180505-164725-5cd1c58-16.1R2S2.2-wsm
+SAT000026,20.20.15.26,1,2,IPC00011,branch,16.1-R2-S2.2 5cd1c58 20180505,REACHABLE,IN_SYNC,KSA1811006,FWA-2320,versa-flexvnf-20180505-164725-5cd1c58-16.1R2S2.2-wsm,FlexVNF-16.1R2S2.2-wsm.bin,versa-flexvnf-20180505-164725-5cd1c58-16.1R2S2.2-wsm

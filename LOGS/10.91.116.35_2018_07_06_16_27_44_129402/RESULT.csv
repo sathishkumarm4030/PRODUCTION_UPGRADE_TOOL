@@ -1,0 +1,3 @@
+cpe,upgrade,interface,bgp_nbr_match,route_match,config_match
+CPE-27,device already running with same package
+SAT000026,device already running with same package

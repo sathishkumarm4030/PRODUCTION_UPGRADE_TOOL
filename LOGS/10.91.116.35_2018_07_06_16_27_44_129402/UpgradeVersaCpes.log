@@ -1,0 +1,121 @@
+2018-07-06 16:27:44,152 - Main - INFO - SCRIPT Started
+2018-07-06 16:27:44,152 - Main - INFO - Result  File : /home/sathish123/PycharmProjects/UpgradeVersaCpe/LOGS/10.91.116.35_2018_07_06_16_27_44_129402//RESULT.csv
+2018-07-06 16:27:44,152 - Main - INFO - LOG FILES Path: /home/sathish123/PycharmProjects/UpgradeVersaCpe/LOGS/10.91.116.35_2018_07_06_16_27_44_129402/
+2018-07-06 16:29:05,123 - Main - INFO - DAY :1
+2018-07-06 16:29:05,132 - Main - INFO - Batch : 1
+2018-07-06 16:29:05,133 - Main - INFO - BELOW ARE THE CPEs going for Upgrade:
+2018-07-06 16:29:05,135 - Main - INFO - CPE-27
+2018-07-06 16:29:10,903 - Main - INFO - 
+2018-07-06 16:29:16,106 - Main - INFO - versa: Administrator@Versa-Dir-BLR-1>
+2018-07-06 16:29:16,106 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcfbed10> connection opened
+2018-07-06 16:29:16,113 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2018-07-06 16:29:16,113 - Main - INFO - before_upgrade Actions for : CPE-27
+2018-07-06 16:29:16,114 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2018-07-06 16:29:16,114 - Main - INFO - CMD>> : request devices device CPE-27 ping
+2018-07-06 16:29:16,717 - Main - INFO - request devices device CPE-27 ping
+result PING 20.20.15.27 (20.20.15.27) 56(84) bytes of data.
+64 bytes from 20.20.15.27: icmp_seq=1 ttl=58 time=13.1 ms
+
+--- 20.20.15.27 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 13.109/13.109/13.109/0.000 ms
+
+[ok][2018-07-06 10:56:29]
+Administrator@Versa-Dir-BLR-1> 
+2018-07-06 16:29:16,717 - Main - INFO - CMD>> : request devices device CPE-27 connect
+2018-07-06 16:29:17,520 - Main - INFO - request devices device CPE-27 connect
+result true
+info (Administrator) Connected to CPE-27 - 20.20.15.27:2022
+[ok][2018-07-06 10:56:30]
+Administrator@Versa-Dir-BLR-1> 
+2018-07-06 16:29:17,520 - Main - INFO - CMD>> : request devices device CPE-27 check-sync
+2018-07-06 16:29:18,323 - Main - INFO - request devices device CPE-27 check-sync
+result in-sync
+[ok][2018-07-06 10:56:30]
+Administrator@Versa-Dir-BLR-1> 
+2018-07-06 16:29:18,323 - Main - INFO - CPE-27 is in sync with VD & able to ping & connect
+2018-07-06 16:29:18,331 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcfbed10> connection closed
+2018-07-06 16:29:23,096 - Main - INFO - 
+2018-07-06 16:29:28,302 - Main - INFO - versa: Administrator@Versa-Dir-BLR-1>
+2018-07-06 16:29:28,303 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcf16490> connection opened
+2018-07-06 16:29:33,305 - Main - INFO - ssh admin@20.20.15.27
+admin@20.20.15.27's password: 
+2018-07-06 16:29:33,306 - Main - INFO - 
+2018-07-06 16:29:33,306 - Main - INFO - 
+2018-07-06 16:29:35,309 - Main - INFO - doing redispatch
+2018-07-06 16:29:43,176 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2018-07-06 16:29:43,176 - Main - INFO - UPGRADE CPEs via REST 
+2018-07-06 16:29:43,177 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2018-07-06 16:29:43,177 - Main - INFO - CPE's LIST for Upgrade
+2018-07-06 16:29:43,178 - Main - INFO - []
+2018-07-06 16:29:47,941 - Main - INFO - 
+2018-07-06 16:29:53,144 - Main - INFO - versa: Administrator@Versa-Dir-BLR-1>
+2018-07-06 16:29:53,144 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcf16490> connection opened
+2018-07-06 16:29:53,149 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcf16490> connection closed
+2018-07-06 16:29:53,150 - Main - INFO - ====================================================================================================
+2018-07-06 16:29:53,150 - Main - INFO - cpe:CPE-27
+2018-07-06 16:29:53,150 - Main - INFO - upgrade:device already running with same package
+2018-07-06 16:29:53,150 - Main - INFO - ====================================================================================================
+2018-07-06 16:29:53,159 - Main - INFO - DAY :1
+2018-07-06 16:29:53,159 - Main - INFO - Batch : 2
+2018-07-06 16:29:53,159 - Main - INFO - BELOW ARE THE CPEs going for Upgrade:
+2018-07-06 16:29:53,160 - Main - INFO - SAT000026
+2018-07-06 16:29:58,889 - Main - INFO - 
+2018-07-06 16:30:04,094 - Main - INFO - versa: Administrator@Versa-Dir-BLR-1>
+2018-07-06 16:30:04,095 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcf160d0> connection opened
+2018-07-06 16:30:04,097 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2018-07-06 16:30:04,097 - Main - INFO - before_upgrade Actions for : SAT000026
+2018-07-06 16:30:04,097 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2018-07-06 16:30:04,097 - Main - INFO - CMD>> : request devices device SAT000026 ping
+2018-07-06 16:30:04,700 - Main - INFO - request devices device SAT000026 ping
+result PING 20.20.15.26 (20.20.15.26) 56(84) bytes of data.
+64 bytes from 20.20.15.26: icmp_seq=1 ttl=58 time=6.72 ms
+
+--- 20.20.15.26 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.722/6.722/6.722/0.000 ms
+
+[ok][2018-07-06 10:57:17]
+Administrator@Versa-Dir-BLR-1> 
+2018-07-06 16:30:04,700 - Main - INFO - CMD>> : request devices device SAT000026 connect
+2018-07-06 16:30:05,503 - Main - INFO - request devices device SAT000026 connect
+result true
+info (Administrator) Connected to SAT000026 - 20.20.15.26:2022
+[ok][2018-07-06 10:57:18]
+Administrator@Versa-Dir-BLR-1> 
+2018-07-06 16:30:05,503 - Main - INFO - CMD>> : request devices device SAT000026 check-sync
+2018-07-06 16:30:06,306 - Main - INFO - request devices device SAT000026 check-sync
+result in-sync
+[ok][2018-07-06 10:57:18]
+Administrator@Versa-Dir-BLR-1> 
+2018-07-06 16:30:06,306 - Main - INFO - SAT000026 is in sync with VD & able to ping & connect
+2018-07-06 16:30:06,421 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcf160d0> connection closed
+2018-07-06 16:30:11,216 - Main - INFO - 
+2018-07-06 16:30:16,421 - Main - INFO - versa: Administrator@Versa-Dir-BLR-1>
+2018-07-06 16:30:16,421 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcf77a90> connection opened
+2018-07-06 16:30:21,427 - Main - INFO - ssh admin@20.20.15.26
+admin@20.20.15.26's password: 
+2018-07-06 16:30:21,428 - Main - INFO - 
+2018-07-06 16:30:21,429 - Main - INFO - 
+2018-07-06 16:30:23,431 - Main - INFO - doing redispatch
+2018-07-06 16:30:31,407 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2018-07-06 16:30:31,407 - Main - INFO - UPGRADE CPEs via REST 
+2018-07-06 16:30:31,407 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2018-07-06 16:30:31,407 - Main - INFO - CPE's LIST for Upgrade
+2018-07-06 16:30:31,408 - Main - INFO - []
+2018-07-06 16:30:36,159 - Main - INFO - 
+2018-07-06 16:30:41,364 - Main - INFO - versa: Administrator@Versa-Dir-BLR-1>
+2018-07-06 16:30:41,364 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcf77a90> connection opened
+2018-07-06 16:30:41,369 - Main - INFO - <netmiko.versa.versa_ssh.VersaSSH object at 0x7fa8bcf77a90> connection closed
+2018-07-06 16:30:41,370 - Main - INFO - ====================================================================================================
+2018-07-06 16:30:41,370 - Main - INFO - cpe:CPE-27
+2018-07-06 16:30:41,370 - Main - INFO - upgrade:device already running with same package
+2018-07-06 16:30:41,371 - Main - INFO - ====================================================================================================
+2018-07-06 16:30:41,371 - Main - INFO - ====================================================================================================
+2018-07-06 16:30:41,371 - Main - INFO - cpe:SAT000026
+2018-07-06 16:30:41,371 - Main - INFO - upgrade:device already running with same package
+2018-07-06 16:30:41,371 - Main - INFO - ====================================================================================================
+2018-07-06 16:30:41,371 - Main - INFO - Time elapsed: 0:02:57.219186
+
+2018-07-06 16:30:41,372 - Main - INFO - Result Stored in /home/sathish123/PycharmProjects/UpgradeVersaCpe/LOGS/10.91.116.35_2018_07_06_16_27_44_129402//RESULT.csv
+2018-07-06 16:30:41,372 - Main - INFO - LOG FILES Path: /home/sathish123/PycharmProjects/UpgradeVersaCpe/LOGS/10.91.116.35_2018_07_06_16_27_44_129402/

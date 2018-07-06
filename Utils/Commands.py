@@ -157,7 +157,6 @@ def take_device_states(state = "before_upgrade"):
                 cpe_list = cpe_list.drop(index=i)
                 cpe_logger.info(cpe_name + " : CPE Redispatch Success")
                 continue
-
         org = cpe_list.ix[i, 'org']
         pack_info = get_package_info(netconnect)
         if state == "before_upgrade":

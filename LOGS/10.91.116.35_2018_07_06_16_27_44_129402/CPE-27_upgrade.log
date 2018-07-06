@@ -1,0 +1,10 @@
+2018-07-06 16:29:42,246 - CPE-27 - INFO - CMD>> : show system package-info | tab
+2018-07-06 16:29:43,050 - CPE-27 - INFO - show system package-info | tab
+PACKAGE                                                                                         BUILD                   
+ID       MAJOR  MINOR  DATE      PACKAGE NAME                                          RELTYPE  TYPE   BRANCH  CREATOR  
+------------------------------------------------------------------------------------------------------------------------
+5cd1c58  16     1      20180505  versa-flexvnf-20180505-164725-5cd1c58-16.1R2S2.2-wsm  R2       S2.2   16.1R2  jenkins  
+
+[ok][2018-07-06 03:56:12]
+admin@CPE-27-cli> 
+2018-07-06 16:29:43,062 - CPE-27 - INFO - CPE-27 : device already running with same package
