@@ -7,11 +7,25 @@ below are the packages used in script.please install pkgs before running script 
 4) requests
 5) json
 
+Install listed packages in Ubuntu 16.04
+apt-get install git
+apt-get install python-pip
+pip install pandas
+pip install textfsm
+pip install requests
+#sudo pip install cffi==1.11.5
+sudo apt-get install python-serial
+
+2) download repos from git
+git clone https://github.com/sathishkumarm4030/netmiko_enh_june6.git
+git clone https://github.com/sathishkumarm4030/Upgradevcpe.git
+
+
+
 install below packages
 1) download netmiko pkg from github - git clone https://github.com/sathishkumarm4030/netmiko_enh_june6.git
 2) cd netmiko & run "python setup.py install"
 
-step2: Update upgrade_device_list.csv for your devices
 
 step3: run DoCpeUpgrade.py
 
