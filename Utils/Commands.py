@@ -773,9 +773,11 @@ def main():
     build_csv(get_device_list())
     raw_input("Press enter to continue")
     csv_data_read = pd.read_csv(cpe_list_file_name)
+    batches = max(csv_data_read['batch'])
+    main_logger.info("total batches : " +  str(batches))
     # batches = csv_data_read['batch'].values.max
     # cpe_list = read_csv_file(cpe_list_file_name, 'CPE-27')
-    for singlebatch in range(1, batch+1):
+    for singlebatch in range(1, batches+1):
         cpe_list = read_csv_file(cpe_list_file_name, day, singlebatch)
         main_logger.info("DAY :" + str(day))
         main_logger.info("Batch : " + str(singlebatch))
