@@ -100,24 +100,28 @@ def do_cross_connection(vd_ssh_dict, dev_dict):
     main_logger.info(output)
     if 'assword:' in output:
         netconnect.write_channel(dev_dict["password"] + "\n")
+        time.sleep(5)
         output = netconnect.read_channel()
         main_logger.info(output)
     elif 'yes' in output:
         print "am in yes condition"
         netconnect.write_channel("yes\n")
+        time.sleep(5)
         output = netconnect.read_channel()
         main_logger.info(output)
         time.sleep(1)
         netconnect.write_channel(dev_dict["password"] + "\n")
+        time.sleep(5)
         output = netconnect.read_channel()
         main_logger.info(output)
     else:
         # cpe_logger.info(output)
         return "VD to CPE " + dev_dict["ip"] + "ssh Failed."
-    netconnect.write_channel("cli\n")
-    output1 = netconnect.read_channel()
-    main_logger.info(output1)
-    time.sleep(2)
+    # netconnect.write_channel("cli\n")
+    # time.sleep(2)
+    # output1 = netconnect.read_channel()
+    # main_logger.info(output1)
+    # time.sleep(2)
     try:
         main_logger.info("doing redispatch")
         redispatch(netconnect, device_type='versa')
