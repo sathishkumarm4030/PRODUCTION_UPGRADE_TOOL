@@ -25,11 +25,13 @@ parsed_dict = {}
 cpe_logger = ""
 cpe_logger_dict ={}
 devices_list = []
-currtime = str(datetime.now())
+currtime = str(datetime.now().replace(microsecond=0))
 currtime =  currtime.replace(" ", "_").replace(":", "_").replace("-", "_").replace(".", "_")
+# currtime_wo_mcs = datetime.now().replace(microsecond=0).isoformat()
+# currtime_wo_mcs =  currtime_wo_mcs.replace(" ", "_").replace(":", "_").replace("-", "_").replace(".", "_")
 up_pkg_dict = {}
 batch = ""
-cpe_list_file_name = vd_dict['ip'] + '_Vcpe_List.csv'
+cpe_list_file_name = vd_dict['ip'] + '_Vcpe_List_' + currtime + '.csv'
 
 if __name__ == "__main__":
     fileDir = os.path.dirname(os.path.dirname(os.path.realpath('__file__')))
@@ -352,6 +354,7 @@ def compare_states():
 def cpe_list_print():
     global cpe_list
     # print "BELOW ARE THE CPEs going for Upgrade:\n"
+    # print len(cpe_list)
     main_logger.info("BELOW ARE THE CPEs going for Upgrade:")
     for i, rows in cpe_list.iterrows():
         # print cpe_list.ix[i, 'device_name_in_vd'] + "\n"
@@ -455,10 +458,14 @@ def make_connection(a_device):
 
 def close_cross_connection(nc):
     time.sleep(1)
-    main_logger.info(nc.write_channel("exit configuration-mode\n"))
+    if "cli" in nc.find_prompt():
+        main_logger.info(nc.write_channel("exit\n"))
     time.sleep(1)
-    main_logger.info(nc.write_channel("exit\n"))
+    main_logger.info(nc.find_prompt())
+    if " $" in nc.find_prompt():
+        main_logger.info(nc.write_channel("exit\n"))
     time.sleep(1)
+    main_logger.info(nc.find_prompt())
     redispatch(nc, device_type='versa')
     main_logger.info(nc.find_prompt())
 
@@ -755,6 +762,7 @@ def get_device_list():
                     except KeyError as ke:
                         print i['name']
                         print "Hardware Info NIL"
+                        continue
                     #print count, day, batch
                     count +=1
                     devices_list.append(device_list)
@@ -777,15 +785,19 @@ def main():
     start_time = datetime.now()
     global cpe_list, batch
     build_csv(get_device_list())
-    raw_input("Press enter to continue")
+    time.sleep(5)
+    raw_input("Edit " + cpe_list_file_name + " and save and Press enter to continue")
     csv_data_read = pd.read_csv(cpe_list_file_name)
     batches = max(csv_data_read['batch'])
-    main_logger.info("total batches : " +  str(batches))
+    start_batch = min(csv_data_read['batch'])
+    # main_logger.info("total batches : " +  str(batches))
     # batches = csv_data_read['batch'].values.max
     # cpe_list = read_csv_file(cpe_list_file_name, 'CPE-27')
-    print batches
-    for singlebatch in range(1, int(batches)+1):
+    # print batches
+    for singlebatch in range(int(start_batch), int(batches)+1):
         cpe_list = read_csv_file(cpe_list_file_name, day, singlebatch)
+        if len(cpe_list) == 0:
+            continue
         main_logger.info("DAY :" + str(day))
         main_logger.info("Batch : " + str(singlebatch))
         cpe_upgrade()
