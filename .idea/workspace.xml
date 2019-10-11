@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="01086aba-c0e9-4899-89bf-1299cbd98f0b" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Utils/Commands.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Commands.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Utils/Variables.py" beforeDir="false" afterPath="$PROJECT_DIR$/Utils/Variables.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="Commands.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Utils/Commands.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="179">
+              <caret line="190" column="18" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="18" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>get_remote_server_key</find>
+      <find>show configuration | display set | nomore</find>
+      <find>Press enter to continue</find>
+      <find>enable</find>
+      <find>task</find>
+      <find>after</find>
+      <find>before</find>
+      <find>get_package_info</find>
+      <find>vni-0/200</find>
+      <find>connection closed</find>
+      <find>deleted</find>
+      <find>added</find>
+      <find>After Upgrade added Lines in config</find>
+      <find>source-zone</find>
+      <find>compare_states</find>
+      <find>check_parse</find>
+      <find>PARSED_DATA</find>
+      <find>CPE14</find>
+      <find>lines</find>
+      <find>community 8009:8009</find>
+      <find>appliance_url</find>
+      <find>CPE26</find>
+      <find>CPE26-SIN</find>
+      <find>CPE-34-HKG-DUAL-HYBRID-MPLS</find>
+      <find>parse3 = parse_send_command(netconnect, cmd3, route_template)</find>
+      <find>exit con</find>
+      <find>BELOW ARE THE CPEs going for Upgrade:</find>
+      <find>batch :</find>
+      <find>Hardware Info NIL</find>
+      <find>close_cross_connection</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Python27\Lib\site-packages\paramiko</dir>
+      <dir>C:\Python27\Lib\site-packages</dir>
+      <dir>C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL\Utils</dir>
+      <dir>C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL\LOGS\10.91.127.194_2019_07_18_16_34_53_115000</dir>
+      <dir>C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL\LOGS\10.91.127.194_2019_07_18_16_34_53_115000\PARSED_DATA</dir>
+      <dir>C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL\LOGS\10.91.127.194_2019_07_19_12_27_09_922000</dir>
+      <dir>C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL\LOGS</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DoCpeUpgrade.py" />
+        <option value="$PROJECT_DIR$/Utils/Variables.py" />
+        <option value="$PROJECT_DIR$/Utils/Commands.py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PRODUCTION_UPGRADE_TOOL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRODUCTION_UPGRADE_TOOL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PRODUCTION_UPGRADE_TOOL" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PRODUCTION_UPGRADE_TOOL" type="462c0819:PsiDirectoryNode" />
+              <item name="Utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL" />
+      <recent name="C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL\Utils" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="DoCpeUpgrade" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PRODUCTION_UPGRADE_TOOL" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DoCpeUpgrade.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.DoCpeUpgrade" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration>C:\Users\SMurugesan2\AppData\Roaming\Subversion</configuration>
+    <myIsUseDefaultProxy>true</myIsUseDefaultProxy>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="01086aba-c0e9-4899-89bf-1299cbd98f0b" name="Default" comment="" />
+      <created>1561026095896</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1561026095896</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.27583644" />
+      <window_info anchor="bottom" id="TODO" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.56436783" />
+      <window_info anchor="bottom" id="Version Control" order="0" weight="0.32984293" />
+      <window_info anchor="bottom" id="Python Console" order="3" weight="0.32873562" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="2" weight="0.19381107" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.49655172" />
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="4" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info active="true" anchor="bottom" id="Find" order="5" visible="true" weight="0.4267101" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://C:/Python27/Lib/site-packages/paramiko/client.py</url>
+          <line>402</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utils/Commands_july17.py</url>
+          <line>145</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utils/Commands.py</url>
+          <line>356</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Utils/Variables.py</url>
+          <line>28</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+      <option name="time" value="24" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_01_17_02_24_475000/CPE15_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_01_17_02_24_475000/CPE22HKGHYBV120S8NEWSITE_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_01_17_02_24_475000/CPE25-HKG-HYBRID_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_01_17_02_24_475000/CPE23-SIN-HYBRID_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_01_17_02_24_475000/CPE12-SIN-INTONLY_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_01_17_02_24_475000/PARSED_DATA/CPE12-SIN-INTONLY_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1938">
+          <caret line="114" column="87" lean-forward="true" selection-start-line="114" selection-start-column="87" selection-end-line="114" selection-end-column="87" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/2and3/threading.pyi">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Python27/Lib/site-packages/netmiko-2.2.2-py2.7.egg!/netmiko/alcatel/alcatel_aos_ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Python27/Lib/site-packages/netmiko-2.2.2-py2.7.egg!/netmiko/alcatel/alcatel_sros_ssh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="27" column="8" selection-start-line="27" selection-start-column="8" selection-end-line="27" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Python27/Lib/site-packages/netmiko-2.2.2-py2.7.egg!/netmiko/versa/versa.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/Commands_july17.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="170" column="18" selection-start-line="170" selection-start-column="18" selection-end-line="170" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Python27/Lib/site-packages/netmiko-2.2.2-py2.7.egg!/netmiko/ssh_dispatcher.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="203" column="4" selection-start-line="203" selection-start-column="4" selection-end-line="203" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/PARSED_DATA/CPE32-SIN-MPLSONLY_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17031" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/CPE16-SIN-MPLSONLY_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-316">
+          <caret line="47" lean-forward="true" selection-start-line="47" selection-end-line="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/PARSED_DATA/CPE16-SIN-MPLSONLY_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-16518">
+          <caret line="1023" column="5" selection-start-line="1023" selection-end-line="1023" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/PARSED_DATA/CPE22HKG-HYBRID_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="1231" column="61" lean-forward="true" selection-start-line="1231" selection-start-column="61" selection-end-line="1231" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/PARSED_DATA/CPE4-SIN-HYBRID_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="1283" lean-forward="true" selection-start-line="285" selection-end-line="1283" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/PARSED_DATA/CPE1-SIN-HYBRID_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="444">
+          <caret line="1272" lean-forward="true" selection-start-line="283" selection-end-line="1272" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/CPE1-SIN-HYBRID_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15827">
+          <caret line="931" column="79" selection-start-line="931" selection-start-column="79" selection-end-line="931" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_27_09_922000/CPE23-SIN-HYBRID_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-23629" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_27_09_922000/CPE-35_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_27_09_922000/UpgradeVersaCpes.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-28819" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_27_09_922000/CPE-34_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7350">
+          <caret line="594" column="94" selection-start-line="594" selection-start-column="83" selection-end-line="594" selection-end-column="94" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_27_09_922000/PARSED_DATA/CPE-34_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="2279" lean-forward="true" selection-start-line="1382" selection-end-line="2279" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_27_09_922000/PARSED_DATA/CPE23-SIN-HYBRID_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="1295" lean-forward="true" selection-start-line="273" selection-end-line="1295" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/CPE26-SIN-DUALMPLSONLY-PRIM_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_19_21_990000/PARSED_DATA/CPE-34_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_19_21_990000/CPE-34_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_15_06_10_819000/CPE26-SIN-DUALMPLSONLY-PRIM_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42758" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_15_30_10_669000/CPE26-SIN-DUALMPLSONLY-PRIM_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42470" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_15_30_10_669000/UpgradeVersaCpes.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-12533" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_15_30_10_669000/CPE27-SIN-DUALMPLSONLY-SEC_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39852" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_27_09_922000/CPE14-SIN-INTONLY_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="781">
+          <caret line="2192" selection-start-line="2192" selection-end-line="2198" selection-end-column="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_19_12_27_09_922000/PARSED_DATA/CPE14-SIN-INTONLY_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="343">
+          <caret line="1008" column="30" lean-forward="true" selection-start-line="213" selection-end-line="1008" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_01_16_06_55_203000/UpgradeVersaCpes.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="129" column="69" selection-start-line="129" selection-start-column="69" selection-end-line="129" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_15_48_43_290000/PARSED_DATA/CPE26-SIN-DUALMPLSONLY-PRIM_outputs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-38180">
+          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_07_18_16_34_53_115000/UpgradeVersaCpes.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-518">
+          <caret line="93" column="69" selection-start-line="93" selection-start-column="69" selection-end-line="93" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_09_20_14_37_30_713000/CPE-35-HKG-DUAL-HYBRID-INT_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_09_20_14_37_30_713000/CPE-34-HKG-DUAL-HYBRID-MPLS_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_09_20_14_37_30_713000/UpgradeVersaCpes.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13328">
+          <caret line="784" column="62" selection-start-line="784" selection-start-column="62" selection-end-line="784" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_09_20_14_37_30_713000/CPE53-Manual-Test_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_09_20_14_37_30_713000/CPE31-Performance-810_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_09_24_15_34_26_198000/UpgradeVersaCpes.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LOGS/10.91.127.194_2019_09_20_14_37_30_713000/CPE-14_upgrade.log">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://C:/Python27/Lib/site-packages/netmiko-2.2.2-py2.7.egg!/netmiko/base_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="1486" column="8" selection-start-line="1486" selection-start-column="8" selection-end-line="1486" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Scripts/build/CPE_onboarding/netmiko-1.5.0-py2.7.egg/netmiko/base_connection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="1096" column="40" selection-start-line="1096" selection-start-column="40" selection-end-line="1096" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/paramiko/client.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="374" column="27" selection-start-line="374" selection-start-column="27" selection-end-line="374" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Python27/Lib/site-packages/paramiko/transport.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="637" column="8" selection-start-line="637" selection-start-column="8" selection-end-line="637" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/Variables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DoCpeUpgrade.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Utils/Commands.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="190" column="18" selection-start-line="190" selection-start-column="9" selection-end-line="190" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

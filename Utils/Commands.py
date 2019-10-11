@@ -188,7 +188,7 @@ def take_device_states(state = "before_upgrade"):
             cpe_parsed_data = [[cpe_name], [pack_info['PACKAGE_NAME']], parse1, parse2, parse3, parse4]
         # cpe_logger.info(cpe_parsed_data)
         write_cpe_output(cpe_parsed_data, state)
-        close_cross_connection(netconnect)
+        #close_cross_connection(netconnect)
         close_connection(netconnect)
 
 

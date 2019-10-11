@@ -49,11 +49,11 @@ def get_vd_details():
     cpe_passwd = getpass.getpass("Enter Versa CPE Password:\n")
     # day = int(raw_input("Enter DAY:\n"))
     # batch = int(raw_input("Enter BATCH:\n"))
-    # ip = '10.91.116.35'
-    # ldap_user = 'admin'
-    # ldap_passwd = 'versa123'
-    # user = 'Sathish'
-    # passwd = 'Jan*1234'
+    # ip = '10.91.127.194'
+    # ldap_user = 'smurugesan2'
+    # ldap_passwd = 'Jan*1234'
+    # user = 'Automated'
+    # passwd = 'Auto@12345'
     # cpe_user = 'admin'
     # cpe_passwd = 'versa123'
     # day = '2'
@@ -85,12 +85,20 @@ vdurl = 'https://' + vd_dict['ip'] + ':9182'
 user = vd_dict['user']
 passwd = vd_dict['passwd']
 # day = vd_dict['day']
+# vd_ssh_dict = {
+#     'device_type' : 'versa',
+#     'ip': vd_dict['ip'],
+#     'username': vd_dict['ldap_user'],
+#     'password': vd_dict['ldap_passwd'],
+#     'port': 22,
+# }
+
 vd_ssh_dict = {
     'device_type': 'versa',
-    'ip': vd_dict['ip'],
-    'username': vd_dict['ldap_user'],
-    'password': vd_dict['ldap_passwd'],
-    'port': 22,
+    'ip': '10.91.127.194',
+    'username': 'smurugesan2',
+    'password': 'Jan*1234',
+    'port': '22',
 }
 
 cmd1 = 'show interfaces brief | tab | nomore'
