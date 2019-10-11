@@ -85,21 +85,21 @@ vdurl = 'https://' + vd_dict['ip'] + ':9182'
 user = vd_dict['user']
 passwd = vd_dict['passwd']
 # day = vd_dict['day']
-# vd_ssh_dict = {
-#     'device_type' : 'versa',
-#     'ip': vd_dict['ip'],
-#     'username': vd_dict['ldap_user'],
-#     'password': vd_dict['ldap_passwd'],
-#     'port': 22,
-# }
-
 vd_ssh_dict = {
-    'device_type': 'versa',
-    'ip': '10.91.127.194',
-    'username': 'smurugesan2',
-    'password': 'Jan*1234',
-    'port': '22',
+    'device_type' : 'versa',
+    'ip': vd_dict['ip'],
+    'username': vd_dict['ldap_user'],
+    'password': vd_dict['ldap_passwd'],
+    'port': 22,
 }
+
+# vd_ssh_dict = {
+#     'device_type': 'versa',
+#     'ip': '10.91.127.194',
+#     'username': 'smurugesan2',
+#     'password': 'Jan*1234',
+#     'port': '22',
+# }
 
 cmd1 = 'show interfaces brief | tab | nomore'
 cmd2 = 'show bgp neighbor brief | nomore'
