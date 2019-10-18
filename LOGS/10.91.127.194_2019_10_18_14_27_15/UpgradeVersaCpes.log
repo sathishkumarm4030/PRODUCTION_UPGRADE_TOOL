@@ -1,0 +1,1493 @@
+2019-10-18 14:27:15,072 - Main - INFO - SCRIPT Started
+2019-10-18 14:27:15,072 - Main - INFO - Result  File : C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL/LOGS/10.91.127.194_2019_10_18_14_27_15//RESULT.csv
+2019-10-18 14:27:15,072 - Main - INFO - LOG FILES Path: C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL/LOGS/10.91.127.194_2019_10_18_14_27_15/
+2019-10-18 14:28:11,490 - Main - INFO - DAY :1
+2019-10-18 14:28:11,490 - Main - INFO - Batch : 1
+2019-10-18 14:28:11,490 - Main - INFO - BELOW ARE THE CPEs going for Upgrade:
+2019-10-18 14:28:11,492 - Main - INFO - CPE-14
+2019-10-18 14:28:11,493 - Main - INFO - CPE-50
+2019-10-18 14:28:11,493 - Main - INFO - CPE1-SIN-HYBRID
+2019-10-18 14:28:11,493 - Main - INFO - CPE16-SIN-MPLSONLY
+2019-10-18 14:28:11,493 - Main - INFO - CPE19
+2019-10-18 14:28:11,493 - Main - INFO - CPE19-Test
+2019-10-18 14:28:11,493 - Main - INFO - CPE20
+2019-10-18 14:28:11,493 - Main - INFO - CPE22HKG-HYBRID
+2019-10-18 14:28:11,493 - Main - INFO - CPE23-SIN-HYBRID
+2019-10-18 14:28:11,494 - Main - INFO - CPE25-Performance-DUT
+2019-10-18 14:28:17,224 - Main - INFO - 
+2019-10-18 14:28:22,426 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:28:22,426 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F53FD68> connection opened
+2019-10-18 14:28:22,434 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:22,434 - Main - INFO - before_upgrade Actions for : CPE-14
+2019-10-18 14:28:22,434 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:22,434 - Main - INFO - CMD>> : request devices device CPE-14 ping
+2019-10-18 14:28:23,240 - Main - INFO - request devices device CPE-14 ping
+result PING 20.20.72.14 (20.20.72.14) 56(84) bytes of data.
+64 bytes from 20.20.72.14: icmp_seq=1 ttl=59 time=3.74 ms
+
+--- 20.20.72.14 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.744/3.744/3.744/0.000 ms
+
+[ok][2019-10-18 08:58:23]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:23,240 - Main - INFO - CMD>> : request devices device CPE-14 connect
+2019-10-18 14:28:24,045 - Main - INFO - request devices device CPE-14 connect
+result true
+info (smurugesan2) Connected to CPE-14 - 20.20.72.14:2022
+[ok][2019-10-18 08:58:24]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:24,045 - Main - INFO - CMD>> : request devices device CPE-14 check-sync
+2019-10-18 14:28:24,848 - Main - INFO - request devices device CPE-14 check-sync
+result in-sync
+[ok][2019-10-18 08:58:25]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:24,848 - Main - INFO - CPE-14 is in sync with VD & able to ping & connect
+2019-10-18 14:28:24,857 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:24,858 - Main - INFO - before_upgrade Actions for : CPE-50
+2019-10-18 14:28:24,858 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:24,858 - Main - INFO - CMD>> : request devices device CPE-50 ping
+2019-10-18 14:28:25,460 - Main - INFO - request devices device CPE-50 ping
+result PING 20.20.16.50 (20.20.16.50) 56(84) bytes of data.
+64 bytes from 20.20.16.50: icmp_seq=1 ttl=61 time=5.00 ms
+
+--- 20.20.16.50 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.008/5.008/5.008/0.000 ms
+
+[ok][2019-10-18 08:58:25]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:25,460 - Main - INFO - CMD>> : request devices device CPE-50 connect
+2019-10-18 14:28:26,263 - Main - INFO - request devices device CPE-50 connect
+result true
+info (smurugesan2) Connected to CPE-50 - 20.20.16.50:2022
+[ok][2019-10-18 08:58:26]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:26,265 - Main - INFO - CMD>> : request devices device CPE-50 check-sync
+2019-10-18 14:28:26,867 - Main - INFO - request devices device CPE-50 check-sync
+result in-sync
+[ok][2019-10-18 08:58:27]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:26,868 - Main - INFO - CPE-50 is in sync with VD & able to ping & connect
+2019-10-18 14:28:26,871 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:26,871 - Main - INFO - before_upgrade Actions for : CPE1-SIN-HYBRID
+2019-10-18 14:28:26,871 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:26,872 - Main - INFO - CMD>> : request devices device CPE1-SIN-HYBRID ping
+2019-10-18 14:28:27,476 - Main - INFO - request devices device CPE1-SIN-HYBRID ping
+result PING 20.20.72.1 (20.20.72.1) 56(84) bytes of data.
+64 bytes from 20.20.72.1: icmp_seq=1 ttl=61 time=3.24 ms
+
+--- 20.20.72.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.243/3.243/3.243/0.000 ms
+
+[ok][2019-10-18 08:58:27]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:27,476 - Main - INFO - CMD>> : request devices device CPE1-SIN-HYBRID connect
+2019-10-18 14:28:28,276 - Main - INFO - request devices device CPE1-SIN-HYBRID connect
+result true
+info (smurugesan2) Connected to CPE1-SIN-HYBRID - 20.20.72.1:2022
+[ok][2019-10-18 08:58:28]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:28,276 - Main - INFO - CMD>> : request devices device CPE1-SIN-HYBRID check-sync
+2019-10-18 14:28:29,079 - Main - INFO - request devices device CPE1-SIN-HYBRID check-sync
+result in-sync
+[ok][2019-10-18 08:58:29]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:29,081 - Main - INFO - CPE1-SIN-HYBRID is in sync with VD & able to ping & connect
+2019-10-18 14:28:29,082 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:29,082 - Main - INFO - before_upgrade Actions for : CPE16-SIN-MPLSONLY
+2019-10-18 14:28:29,082 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:29,082 - Main - INFO - CMD>> : request devices device CPE16-SIN-MPLSONLY ping
+2019-10-18 14:28:29,684 - Main - INFO - request devices device CPE16-SIN-MPLSONLY ping
+result PING 20.20.72.16 (20.20.72.16) 56(84) bytes of data.
+64 bytes from 20.20.72.16: icmp_seq=1 ttl=59 time=3.94 ms
+
+--- 20.20.72.16 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.943/3.943/3.943/0.000 ms
+
+[ok][2019-10-18 08:58:30]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:29,686 - Main - INFO - CMD>> : request devices device CPE16-SIN-MPLSONLY connect
+2019-10-18 14:28:30,487 - Main - INFO - request devices device CPE16-SIN-MPLSONLY connect
+result true
+info (smurugesan2) Connected to CPE16-SIN-MPLSONLY - 20.20.72.16:2022
+[ok][2019-10-18 08:58:30]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:30,487 - Main - INFO - CMD>> : request devices device CPE16-SIN-MPLSONLY check-sync
+2019-10-18 14:28:31,292 - Main - INFO - request devices device CPE16-SIN-MPLSONLY check-sync
+result in-sync
+[ok][2019-10-18 08:58:31]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:31,292 - Main - INFO - CPE16-SIN-MPLSONLY is in sync with VD & able to ping & connect
+2019-10-18 14:28:31,296 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:31,296 - Main - INFO - before_upgrade Actions for : CPE19
+2019-10-18 14:28:31,296 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:31,296 - Main - INFO - CMD>> : request devices device CPE19 ping
+2019-10-18 14:28:31,900 - Main - INFO - request devices device CPE19 ping
+result PING 20.20.16.19 (20.20.16.19) 56(84) bytes of data.
+64 bytes from 20.20.16.19: icmp_seq=1 ttl=61 time=6.17 ms
+
+--- 20.20.16.19 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.175/6.175/6.175/0.000 ms
+
+[ok][2019-10-18 08:58:32]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:31,900 - Main - INFO - CMD>> : request devices device CPE19 connect
+2019-10-18 14:28:32,704 - Main - INFO - request devices device CPE19 connect
+result true
+info (smurugesan2) Connected to CPE19 - 20.20.16.19:2022
+[ok][2019-10-18 08:58:33]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:32,706 - Main - INFO - CMD>> : request devices device CPE19 check-sync
+2019-10-18 14:28:33,510 - Main - INFO - request devices device CPE19 check-sync
+result out-of-sync
+info got: 1571-311065-944837@vcn0 expected: 1568-885614-475923@vcn0
+
+[ok][2019-10-18 08:58:33]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:33,510 - Main - INFO - CPE out-of sync.
+2019-10-18 14:28:33,513 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:33,513 - Main - INFO - before_upgrade Actions for : CPE19-Test
+2019-10-18 14:28:33,513 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:33,513 - Main - INFO - CMD>> : request devices device CPE19-Test ping
+2019-10-18 14:28:34,115 - Main - INFO - request devices device CPE19-Test ping
+result PING 20.20.16.19 (20.20.16.19) 56(84) bytes of data.
+64 bytes from 20.20.16.19: icmp_seq=1 ttl=61 time=6.50 ms
+
+--- 20.20.16.19 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.500/6.500/6.500/0.000 ms
+
+[ok][2019-10-18 08:58:34]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:34,115 - Main - INFO - CMD>> : request devices device CPE19-Test connect
+2019-10-18 14:28:34,917 - Main - INFO - request devices device CPE19-Test connect
+result true
+info (smurugesan2) Connected to CPE19-Test - 20.20.16.19:2022
+[ok][2019-10-18 08:58:35]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:34,918 - Main - INFO - CMD>> : request devices device CPE19-Test check-sync
+2019-10-18 14:28:35,520 - Main - INFO - request devices device CPE19-Test check-sync
+result in-sync
+[ok][2019-10-18 08:58:35]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:35,520 - Main - INFO - CPE19-Test is in sync with VD & able to ping & connect
+2019-10-18 14:28:35,523 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:35,523 - Main - INFO - before_upgrade Actions for : CPE20
+2019-10-18 14:28:35,523 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:35,525 - Main - INFO - CMD>> : request devices device CPE20 ping
+2019-10-18 14:28:36,125 - Main - INFO - request devices device CPE20 ping
+result PING 20.20.16.20 (20.20.16.20) 56(84) bytes of data.
+64 bytes from 20.20.16.20: icmp_seq=1 ttl=59 time=3.37 ms
+
+--- 20.20.16.20 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.373/3.373/3.373/0.000 ms
+
+[ok][2019-10-18 08:58:36]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:36,125 - Main - INFO - CMD>> : request devices device CPE20 connect
+2019-10-18 14:28:36,927 - Main - INFO - request devices device CPE20 connect
+result true
+info (smurugesan2) Connected to CPE20 - 20.20.16.20:2022
+[ok][2019-10-18 08:58:37]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:36,927 - Main - INFO - CMD>> : request devices device CPE20 check-sync
+2019-10-18 14:28:37,730 - Main - INFO - request devices device CPE20 check-sync
+result in-sync
+[ok][2019-10-18 08:58:38]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:37,730 - Main - INFO - CPE20 is in sync with VD & able to ping & connect
+2019-10-18 14:28:37,732 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:37,732 - Main - INFO - before_upgrade Actions for : CPE22HKG-HYBRID
+2019-10-18 14:28:37,732 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:37,732 - Main - INFO - CMD>> : request devices device CPE22HKG-HYBRID ping
+2019-10-18 14:28:38,332 - Main - INFO - request devices device CPE22HKG-HYBRID ping
+result PING 20.20.72.22 (20.20.72.22) 56(84) bytes of data.
+64 bytes from 20.20.72.22: icmp_seq=1 ttl=61 time=8.83 ms
+
+--- 20.20.72.22 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 8.838/8.838/8.838/0.000 ms
+
+[ok][2019-10-18 08:58:38]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:38,332 - Main - INFO - CMD>> : request devices device CPE22HKG-HYBRID connect
+2019-10-18 14:28:39,134 - Main - INFO - request devices device CPE22HKG-HYBRID connect
+result true
+info (smurugesan2) Connected to CPE22HKG-HYBRID - 20.20.72.22:2022
+[ok][2019-10-18 08:58:39]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:39,134 - Main - INFO - CMD>> : request devices device CPE22HKG-HYBRID check-sync
+2019-10-18 14:28:39,937 - Main - INFO - request devices device CPE22HKG-HYBRID check-sync
+result out-of-sync
+info got: 1571-309257-753672@vcn0 expected: 1570-84277-987697@vcn0
+
+[ok][2019-10-18 08:58:40]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:39,937 - Main - INFO - CPE out-of sync.
+2019-10-18 14:28:39,940 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:39,940 - Main - INFO - before_upgrade Actions for : CPE23-SIN-HYBRID
+2019-10-18 14:28:39,940 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:39,941 - Main - INFO - CMD>> : request devices device CPE23-SIN-HYBRID ping
+2019-10-18 14:28:40,543 - Main - INFO - request devices device CPE23-SIN-HYBRID ping
+result PING 20.20.72.23 (20.20.72.23) 56(84) bytes of data.
+64 bytes from 20.20.72.23: icmp_seq=1 ttl=61 time=2.66 ms
+
+--- 20.20.72.23 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.666/2.666/2.666/0.000 ms
+
+[ok][2019-10-18 08:58:40]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:40,543 - Main - INFO - CMD>> : request devices device CPE23-SIN-HYBRID connect
+2019-10-18 14:28:41,359 - Main - INFO - request devices device CPE23-SIN-HYBRID connect
+result true
+info (smurugesan2) Connected to CPE23-SIN-HYBRID - 20.20.72.23:2022
+[ok][2019-10-18 08:58:41]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:41,359 - Main - INFO - CMD>> : request devices device CPE23-SIN-HYBRID check-sync
+2019-10-18 14:28:42,176 - Main - INFO - request devices device CPE23-SIN-HYBRID check-sync
+result out-of-sync
+info got: 1571-309330-201583@vcn0 expected: 1570-790279-35419@vcn0
+
+[ok][2019-10-18 08:58:42]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:42,176 - Main - INFO - CPE out-of sync.
+2019-10-18 14:28:42,178 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:42,178 - Main - INFO - before_upgrade Actions for : CPE25-Performance-DUT
+2019-10-18 14:28:42,178 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:28:42,180 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT ping
+2019-10-18 14:28:42,782 - Main - INFO - request devices device CPE25-Performance-DUT ping
+result PING 20.20.90.25 (20.20.90.25) 56(84) bytes of data.
+64 bytes from 20.20.90.25: icmp_seq=1 ttl=61 time=3.98 ms
+
+--- 20.20.90.25 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.984/3.984/3.984/0.000 ms
+
+[ok][2019-10-18 08:58:43]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:42,782 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT connect
+2019-10-18 14:28:43,584 - Main - INFO - request devices device CPE25-Performance-DUT connect
+result true
+info (smurugesan2) Connected to CPE25-Performance-DUT - 20.20.90.25:2022
+[ok][2019-10-18 08:58:43]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:43,584 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT check-sync
+2019-10-18 14:28:44,388 - Main - INFO - request devices device CPE25-Performance-DUT check-sync
+result in-sync
+[ok][2019-10-18 08:58:44]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:28:44,388 - Main - INFO - CPE25-Performance-DUT is in sync with VD & able to ping & connect
+2019-10-18 14:28:44,451 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F53FD68> connection closed
+2019-10-18 14:28:49,210 - Main - INFO - 
+2019-10-18 14:28:54,411 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:28:54,411 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F53FC50> connection opened
+2019-10-18 14:28:59,415 - Main - INFO - ssh admin@20.20.72.14
+admin@20.20.72.14's password: 
+2019-10-18 14:29:04,417 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Thu Oct 17 15:29:24 2019 from 10.91.194.122
+[admin@CPE-14: ~] # 
+2019-10-18 14:29:04,417 - Main - INFO - doing redispatch
+2019-10-18 14:29:19,756 - Main - INFO - 
+2019-10-18 14:29:24,957 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:29:24,957 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F77BDA0> connection opened
+2019-10-18 14:29:29,960 - Main - INFO - ssh admin@20.20.16.50
+admin@20.20.16.50's password: 
+2019-10-18 14:29:34,960 - Main - INFO - 
+
+2019-10-18 14:29:34,960 - Main - INFO - doing redispatch
+2019-10-18 14:30:45,664 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F77BDA0> connection closed
+2019-10-18 14:30:50,403 - Main - INFO - 
+2019-10-18 14:30:55,605 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:30:55,605 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F53F748> connection opened
+2019-10-18 14:31:00,605 - Main - INFO - ssh admin@20.20.72.1
+admin@20.20.72.1's password: 
+2019-10-18 14:31:05,607 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 14:08:46 2019 from 10.91.127.194
+[admin@CPE1-SIN-HYBRID: ~] # 
+2019-10-18 14:31:05,607 - Main - INFO - doing redispatch
+2019-10-18 14:31:20,877 - Main - INFO - 
+2019-10-18 14:31:26,101 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:31:26,101 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F6EED30> connection opened
+2019-10-18 14:31:31,101 - Main - INFO - ssh admin@20.20.72.16
+admin@20.20.72.16's password: 
+2019-10-18 14:31:36,102 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Wed Oct 16 09:27:50 2019 from 10.92.116.67
+[admin@CPE16-SIN-MPLSONLY: ~] $ 
+2019-10-18 14:31:36,102 - Main - INFO - doing redispatch
+2019-10-18 14:31:51,359 - Main - INFO - 
+2019-10-18 14:31:56,578 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:31:56,578 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F6EE780> connection opened
+2019-10-18 14:32:01,579 - Main - INFO - ssh admin@20.20.16.19
+admin@20.20.16.19's password: 
+2019-10-18 14:32:06,581 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 08:30:55 2019 from 10.91.192.177
+[admin@CPE19-Test: ~] # 
+2019-10-18 14:32:06,581 - Main - INFO - doing redispatch
+2019-10-18 14:32:21,717 - Main - INFO - 
+2019-10-18 14:32:26,918 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:32:26,918 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F6EEA58> connection opened
+2019-10-18 14:32:31,920 - Main - INFO - ssh admin@20.20.16.20
+admin@20.20.16.20's password: 
+2019-10-18 14:32:36,921 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 08:47:07 2019 from 10.91.192.244
+[admin@CPE20: ~] $ 
+2019-10-18 14:32:36,921 - Main - INFO - doing redispatch
+2019-10-18 14:32:51,963 - Main - INFO - 
+2019-10-18 14:32:57,164 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:32:57,164 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F77BF28> connection opened
+2019-10-18 14:33:02,178 - Main - INFO - ssh admin@20.20.90.25
+admin@20.20.90.25's password: 
+2019-10-18 14:33:07,181 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 09:02:00 2019 from 10.92.116.67
+[admin@CPE25-Performance-DUT: ~] # 
+2019-10-18 14:33:07,183 - Main - INFO - doing redispatch
+2019-10-18 14:33:28,000 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F77BF28> connection closed
+2019-10-18 14:33:32,703 - Main - INFO - 
+2019-10-18 14:33:37,918 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:33:37,918 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F415390> connection opened
+2019-10-18 14:33:37,918 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:33:37,918 - Main - INFO - after_upgrade Actions for : CPE-50
+2019-10-18 14:33:37,918 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:33:37,918 - Main - INFO - CMD>> : request devices device CPE-50 ping
+2019-10-18 14:33:38,766 - Main - INFO - request devices device CPE-50 ping
+result PING 20.20.16.50 (20.20.16.50) 56(84) bytes of data.
+64 bytes from 20.20.16.50: icmp_seq=1 ttl=61 time=6.92 ms
+
+--- 20.20.16.50 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.923/6.923/6.923/0.000 ms
+
+[ok][2019-10-18 09:03:38]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:33:38,766 - Main - INFO - CMD>> : request devices device CPE-50 connect
+2019-10-18 14:33:39,569 - Main - INFO - request devices device CPE-50 connect
+result true
+info (smurugesan2) Connected to CPE-50 - 20.20.16.50:2022
+[ok][2019-10-18 09:03:39]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:33:39,569 - Main - INFO - CMD>> : request devices device CPE-50 check-sync
+2019-10-18 14:33:40,372 - Main - INFO - request devices device CPE-50 check-sync
+result in-sync
+[ok][2019-10-18 09:03:40]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:33:40,372 - Main - INFO - CPE-50 is in sync with VD & able to ping & connect
+2019-10-18 14:33:40,374 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:33:40,374 - Main - INFO - after_upgrade Actions for : CPE25-Performance-DUT
+2019-10-18 14:33:40,374 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:33:40,374 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT ping
+2019-10-18 14:33:40,982 - Main - INFO - request devices device CPE25-Performance-DUT ping
+result PING 20.20.90.25 (20.20.90.25) 56(84) bytes of data.
+64 bytes from 20.20.90.25: icmp_seq=1 ttl=61 time=4.72 ms
+
+--- 20.20.90.25 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.720/4.720/4.720/0.000 ms
+
+[ok][2019-10-18 09:03:41]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:33:40,982 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT connect
+2019-10-18 14:33:41,809 - Main - INFO - request devices device CPE25-Performance-DUT connect
+result true
+info (smurugesan2) Connected to CPE25-Performance-DUT - 20.20.90.25:2022
+[ok][2019-10-18 09:03:42]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:33:41,809 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT check-sync
+2019-10-18 14:33:42,611 - Main - INFO - request devices device CPE25-Performance-DUT check-sync
+result in-sync
+[ok][2019-10-18 09:03:42]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:33:42,612 - Main - INFO - CPE25-Performance-DUT is in sync with VD & able to ping & connect
+2019-10-18 14:33:42,645 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F415390> connection closed
+2019-10-18 14:33:47,766 - Main - INFO - 
+2019-10-18 14:33:52,983 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:33:52,983 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776E80> connection opened
+2019-10-18 14:33:57,983 - Main - INFO - ssh admin@20.20.16.50
+admin@20.20.16.50's password: 
+2019-10-18 14:34:02,983 - Main - INFO - 
+
+2019-10-18 14:34:02,983 - Main - INFO - doing redispatch
+2019-10-18 14:34:38,092 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776E80> connection closed
+2019-10-18 14:34:43,010 - Main - INFO - 
+2019-10-18 14:34:48,213 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:34:48,213 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F53FB70> connection opened
+2019-10-18 14:34:53,213 - Main - INFO - ssh admin@20.20.90.25
+admin@20.20.90.25's password: 
+2019-10-18 14:34:58,216 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 09:02:58 2019 from 10.92.116.67
+[admin@CPE25-Performance-DUT: ~] # 
+2019-10-18 14:34:58,216 - Main - INFO - doing redispatch
+2019-10-18 14:35:16,752 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F53FB70> connection closed
+2019-10-18 14:35:16,759 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,759 - Main - INFO - cpe:CPE19
+2019-10-18 14:35:16,759 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 14:35:16,759 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,759 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,760 - Main - INFO - cpe:CPE22HKG-HYBRID
+2019-10-18 14:35:16,760 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 14:35:16,760 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,760 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,760 - Main - INFO - cpe:CPE23-SIN-HYBRID
+2019-10-18 14:35:16,760 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 14:35:16,762 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,762 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,762 - Main - INFO - cpe:CPE-14
+2019-10-18 14:35:16,762 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:35:16,763 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,763 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,763 - Main - INFO - cpe:CPE1-SIN-HYBRID
+2019-10-18 14:35:16,763 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:35:16,763 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,763 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,763 - Main - INFO - cpe:CPE16-SIN-MPLSONLY
+2019-10-18 14:35:16,763 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:35:16,763 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,763 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,765 - Main - INFO - cpe:CPE19-Test
+2019-10-18 14:35:16,765 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:35:16,765 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,765 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,765 - Main - INFO - cpe:CPE20
+2019-10-18 14:35:16,765 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:35:16,766 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,766 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,766 - Main - INFO - cpe:CPE-50
+2019-10-18 14:35:16,766 - Main - INFO - upgrade:Failed to upgrade - versa-flexvnf-20190628-153900-80561de-16.1R2S9 to versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm
+2019-10-18 14:35:16,766 - Main - INFO - interface:OK
+2019-10-18 14:35:16,766 - Main - INFO - bgp_nbr_match:OK
+2019-10-18 14:35:16,766 - Main - INFO - route_match:OK
+2019-10-18 14:35:16,766 - Main - INFO - config_match:OK
+2019-10-18 14:35:16,766 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,766 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,767 - Main - INFO - cpe:CPE25-Performance-DUT
+2019-10-18 14:35:16,767 - Main - INFO - upgrade:Failed to upgrade - versa-flexvnf-20190628-153900-80561de-16.1R2S9 to versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm
+2019-10-18 14:35:16,767 - Main - INFO - interface:OK
+2019-10-18 14:35:16,767 - Main - INFO - bgp_nbr_match:OK
+2019-10-18 14:35:16,767 - Main - INFO - route_match:OK
+2019-10-18 14:35:16,769 - Main - INFO - config_match:OK
+2019-10-18 14:35:16,769 - Main - INFO - ====================================================================================================
+2019-10-18 14:35:16,786 - Main - INFO - DAY :1
+2019-10-18 14:35:16,786 - Main - INFO - Batch : 2
+2019-10-18 14:35:16,786 - Main - INFO - BELOW ARE THE CPEs going for Upgrade:
+2019-10-18 14:35:16,788 - Main - INFO - CPE26-HKG2-DUAL-HYB-IPC00194
+2019-10-18 14:35:16,788 - Main - INFO - CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18
+2019-10-18 14:35:16,788 - Main - INFO - CPE31-Performance-810
+2019-10-18 14:35:16,789 - Main - INFO - CPE4-SIN-HYBRID
+2019-10-18 14:35:16,789 - Main - INFO - CPE5
+2019-10-18 14:35:16,789 - Main - INFO - CPE6
+2019-10-18 14:35:16,789 - Main - INFO - CPE7
+2019-10-18 14:35:16,789 - Main - INFO - CPE8
+2019-10-18 14:35:16,790 - Main - INFO - UCPE3
+2019-10-18 14:35:16,790 - Main - INFO - UCPE7
+2019-10-18 14:35:22,500 - Main - INFO - 
+2019-10-18 14:35:27,700 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:35:27,700 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776710> connection opened
+2019-10-18 14:35:27,706 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:27,706 - Main - INFO - before_upgrade Actions for : CPE26-HKG2-DUAL-HYB-IPC00194
+2019-10-18 14:35:27,707 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:27,707 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 ping
+2019-10-18 14:35:28,513 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194  ping
+result PING 20.20.94.26 (20.20.94.26) 56(84) bytes of data.
+64 bytes from 20.20.94.26: icmp_seq=1 ttl=61 time=14.5 ms
+
+--- 20.20.94.26 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 14.501/14.501/14.501/0.000 ms
+
+[ok][2019-10-18 09:05:28]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:28,513 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 connect
+2019-10-18 14:35:29,316 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194  connect
+result true
+info (smurugesan2) Connected to CPE26-HKG2-DUAL-HYB-IPC00194 - 20.20.94.26:2022
+[ok][2019-10-18 09:05:29]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:29,316 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 check-sync
+2019-10-18 14:35:30,121 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194  check-sync
+result in-sync
+[ok][2019-10-18 09:05:30]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:30,121 - Main - INFO - CPE26-HKG2-DUAL-HYB-IPC00194 is in sync with VD & able to ping & connect
+2019-10-18 14:35:30,125 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:30,125 - Main - INFO - before_upgrade Actions for : CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18
+2019-10-18 14:35:30,127 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:30,127 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 ping
+2019-10-18 14:35:30,730 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 ping
+result PING 20.20.90.27 (20.20.90.27) 56(84) bytes of data.
+64 bytes from 20.20.90.27: icmp_seq=1 ttl=61 time=2.06 ms
+
+--- 20.20.90.27 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.063/2.063/2.063/0.000 ms
+
+[ok][2019-10-18 09:05:31]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:30,730 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 connect
+2019-10-18 14:35:31,532 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 connect
+result true
+info (smurugesan2) Connected to CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 - 20.20.90.27:2022
+[ok][2019-10-18 09:05:31]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:31,532 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 check-sync
+2019-10-18 14:35:32,362 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 check-sync
+result in-sync
+[ok][2019-10-18 09:05:32]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:32,362 - Main - INFO - CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 is in sync with VD & able to ping & connect
+2019-10-18 14:35:32,371 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:32,371 - Main - INFO - before_upgrade Actions for : CPE31-Performance-810
+2019-10-18 14:35:32,371 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:32,371 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 ping
+2019-10-18 14:35:33,020 - Main - INFO - request devices device CPE31-Performance-810 ping
+result PING 20.20.90.31 (20.20.90.31) 56(84) bytes of data.
+64 bytes from 20.20.90.31: icmp_seq=1 ttl=61 time=2.66 ms
+
+--- 20.20.90.31 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.663/2.663/2.663/0.000 ms
+
+[ok][2019-10-18 09:05:33]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:33,022 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 connect
+2019-10-18 14:35:33,826 - Main - INFO - request devices device CPE31-Performance-810 connect
+result true
+info (smurugesan2) Connected to CPE31-Performance-810 - 20.20.90.31:2022
+[ok][2019-10-18 09:05:34]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:33,826 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 check-sync
+2019-10-18 14:35:34,630 - Main - INFO - request devices device CPE31-Performance-810 check-sync
+result in-sync
+[ok][2019-10-18 09:05:34]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:34,638 - Main - INFO - CPE31-Performance-810 is in sync with VD & able to ping & connect
+2019-10-18 14:35:34,642 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:34,642 - Main - INFO - before_upgrade Actions for : CPE4-SIN-HYBRID
+2019-10-18 14:35:34,644 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:34,644 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID ping
+2019-10-18 14:35:35,259 - Main - INFO - request devices device CPE4-SIN-HYBRID ping
+result PING 20.20.72.4 (20.20.72.4) 56(84) bytes of data.
+64 bytes from 20.20.72.4: icmp_seq=1 ttl=59 time=2.57 ms
+
+--- 20.20.72.4 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.571/2.571/2.571/0.000 ms
+
+[ok][2019-10-18 09:05:35]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:35,259 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID connect
+2019-10-18 14:35:36,062 - Main - INFO - request devices device CPE4-SIN-HYBRID connect
+result true
+info (smurugesan2) Connected to CPE4-SIN-HYBRID - 20.20.72.4:2022
+[ok][2019-10-18 09:05:36]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:36,062 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID check-sync
+2019-10-18 14:35:36,865 - Main - INFO - request devices device CPE4-SIN-HYBRID check-sync
+result in-sync
+[ok][2019-10-18 09:05:37]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:36,865 - Main - INFO - CPE4-SIN-HYBRID is in sync with VD & able to ping & connect
+2019-10-18 14:35:36,867 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:36,867 - Main - INFO - before_upgrade Actions for : CPE5
+2019-10-18 14:35:36,867 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:36,867 - Main - INFO - CMD>> : request devices device CPE5 ping
+2019-10-18 14:35:37,470 - Main - INFO - request devices device CPE5 ping
+result PING 20.20.16.5 (20.20.16.5) 56(84) bytes of data.
+64 bytes from 20.20.16.5: icmp_seq=1 ttl=61 time=8.82 ms
+
+--- 20.20.16.5 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 8.820/8.820/8.820/0.000 ms
+
+[ok][2019-10-18 09:05:37]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:37,470 - Main - INFO - CMD>> : request devices device CPE5 connect
+2019-10-18 14:35:38,283 - Main - INFO - request devices device CPE5 connect
+result true
+info (smurugesan2) Connected to CPE5 - 20.20.16.5:2022
+[ok][2019-10-18 09:05:38]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:38,283 - Main - INFO - CMD>> : request devices device CPE5 check-sync
+2019-10-18 14:35:39,104 - Main - INFO - request devices device CPE5 check-sync
+result in-sync
+[ok][2019-10-18 09:05:39]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:39,104 - Main - INFO - CPE5 is in sync with VD & able to ping & connect
+2019-10-18 14:35:39,108 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:39,108 - Main - INFO - before_upgrade Actions for : CPE6
+2019-10-18 14:35:39,108 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:39,108 - Main - INFO - CMD>> : request devices device CPE6 ping
+2019-10-18 14:35:39,710 - Main - INFO - request devices device CPE6 ping
+result PING 20.20.16.6 (20.20.16.6) 56(84) bytes of data.
+64 bytes from 20.20.16.6: icmp_seq=1 ttl=61 time=5.20 ms
+
+--- 20.20.16.6 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.201/5.201/5.201/0.000 ms
+
+[ok][2019-10-18 09:05:40]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:39,710 - Main - INFO - CMD>> : request devices device CPE6 connect
+2019-10-18 14:35:40,714 - Main - INFO - request devices device CPE6 connect
+result true
+info (smurugesan2) Connected to CPE6 - 20.20.16.6:2022
+[ok][2019-10-18 09:05:40]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:40,716 - Main - INFO - CMD>> : request devices device CPE6 check-sync
+2019-10-18 14:35:41,529 - Main - INFO - request devices device CPE6 check-sync
+result in-sync
+[ok][2019-10-18 09:05:41]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:41,529 - Main - INFO - CPE6 is in sync with VD & able to ping & connect
+2019-10-18 14:35:41,535 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:41,535 - Main - INFO - before_upgrade Actions for : CPE7
+2019-10-18 14:35:41,535 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:41,535 - Main - INFO - CMD>> : request devices device CPE7 ping
+2019-10-18 14:35:42,135 - Main - INFO - request devices device CPE7 ping
+result PING 20.20.16.7 (20.20.16.7) 56(84) bytes of data.
+64 bytes from 20.20.16.7: icmp_seq=1 ttl=61 time=4.71 ms
+
+--- 20.20.16.7 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.713/4.713/4.713/0.000 ms
+
+[ok][2019-10-18 09:05:42]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:42,137 - Main - INFO - CMD>> : request devices device CPE7 connect
+2019-10-18 14:35:43,141 - Main - INFO - request devices device CPE7 connect
+result true
+info (smurugesan2) Connected to CPE7 - 20.20.16.7:2022
+[ok][2019-10-18 09:05:43]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:43,141 - Main - INFO - CMD>> : request devices device CPE7 check-sync
+2019-10-18 14:35:43,956 - Main - INFO - request devices device CPE7 check-sync
+result out-of-sync
+info got: 1571-330992-337633@vcn0 expected: 1571-111726-25964@vcn0
+
+[ok][2019-10-18 09:05:44]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:43,956 - Main - INFO - CPE out-of sync.
+2019-10-18 14:35:43,956 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:43,956 - Main - INFO - before_upgrade Actions for : CPE8
+2019-10-18 14:35:43,956 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:43,956 - Main - INFO - CMD>> : request devices device CPE8 ping
+2019-10-18 14:35:44,561 - Main - INFO - request devices device CPE8 ping
+result PING 20.20.16.8 (20.20.16.8) 56(84) bytes of data.
+64 bytes from 20.20.16.8: icmp_seq=1 ttl=61 time=4.28 ms
+
+--- 20.20.16.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.280/4.280/4.280/0.000 ms
+
+[ok][2019-10-18 09:05:44]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:44,561 - Main - INFO - CMD>> : request devices device CPE8 connect
+2019-10-18 14:35:45,378 - Main - INFO - request devices device CPE8 connect
+result true
+info (smurugesan2) Connected to CPE8 - 20.20.16.8:2022
+[ok][2019-10-18 09:05:45]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:45,378 - Main - INFO - CMD>> : request devices device CPE8 check-sync
+2019-10-18 14:35:46,181 - Main - INFO - request devices device CPE8 check-sync
+result in-sync
+[ok][2019-10-18 09:05:46]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:46,181 - Main - INFO - CPE8 is in sync with VD & able to ping & connect
+2019-10-18 14:35:46,187 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:46,187 - Main - INFO - before_upgrade Actions for : UCPE3
+2019-10-18 14:35:46,187 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:46,187 - Main - INFO - CMD>> : request devices device UCPE3 ping
+2019-10-18 14:35:46,789 - Main - INFO - request devices device UCPE3 ping
+result PING 20.20.72.153 (20.20.72.153) 56(84) bytes of data.
+64 bytes from 20.20.72.153: icmp_seq=1 ttl=59 time=2.74 ms
+
+--- 20.20.72.153 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.743/2.743/2.743/0.000 ms
+
+[ok][2019-10-18 09:05:47]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:46,789 - Main - INFO - CMD>> : request devices device UCPE3 connect
+2019-10-18 14:35:47,592 - Main - INFO - request devices device UCPE3 connect
+result true
+info (smurugesan2) Connected to UCPE3 - 20.20.72.153:2022
+[ok][2019-10-18 09:05:47]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:47,592 - Main - INFO - CMD>> : request devices device UCPE3 check-sync
+2019-10-18 14:35:48,394 - Main - INFO - request devices device UCPE3 check-sync
+result in-sync
+[ok][2019-10-18 09:05:48]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:48,394 - Main - INFO - UCPE3 is in sync with VD & able to ping & connect
+2019-10-18 14:35:48,395 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:48,395 - Main - INFO - before_upgrade Actions for : UCPE7
+2019-10-18 14:35:48,395 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:35:48,395 - Main - INFO - CMD>> : request devices device UCPE7 ping
+2019-10-18 14:35:49,055 - Main - INFO - request devices device UCPE7 ping
+result PING 20.20.72.157 (20.20.72.157) 56(84) bytes of data.
+64 bytes from 20.20.72.157: icmp_seq=1 ttl=59 time=3.53 ms
+
+--- 20.20.72.157 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.530/3.530/3.530/0.000 ms
+
+[ok][2019-10-18 09:05:49]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:49,056 - Main - INFO - CMD>> : request devices device UCPE7 connect
+2019-10-18 14:35:49,858 - Main - INFO - request devices device UCPE7 connect
+result true
+info (smurugesan2) Connected to UCPE7 - 20.20.72.157:2022
+[ok][2019-10-18 09:05:50]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:49,858 - Main - INFO - CMD>> : request devices device UCPE7 check-sync
+2019-10-18 14:35:50,664 - Main - INFO - request devices device UCPE7 check-sync
+result in-sync
+[ok][2019-10-18 09:05:50]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:35:50,664 - Main - INFO - UCPE7 is in sync with VD & able to ping & connect
+2019-10-18 14:35:50,743 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776710> connection closed
+2019-10-18 14:35:55,490 - Main - INFO - 
+2019-10-18 14:36:00,793 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:36:00,793 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776400> connection opened
+2019-10-18 14:36:05,795 - Main - INFO - ssh admin@20.20.94.26
+admin@20.20.94.26's password: 
+2019-10-18 14:36:10,796 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 09:02:05 2019 from 10.92.116.67
+[admin@CPE26-HKG2-DUAL-HYB-IPC00194: ~] $ 
+2019-10-18 14:36:10,796 - Main - INFO - doing redispatch
+2019-10-18 14:36:30,490 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776400> connection closed
+2019-10-18 14:36:35,187 - Main - INFO - 
+2019-10-18 14:36:40,388 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:36:40,388 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F91A588> connection opened
+2019-10-18 14:36:45,388 - Main - INFO - ssh admin@20.20.90.27
+admin@20.20.90.27's password: 
+2019-10-18 14:36:50,391 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 09:01:56 2019 from 10.92.116.67
+[admin@CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18: ~] # 
+2019-10-18 14:36:50,391 - Main - INFO - doing redispatch
+2019-10-18 14:37:12,463 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F91A588> connection closed
+2019-10-18 14:37:17,210 - Main - INFO - 
+2019-10-18 14:37:22,411 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:37:22,411 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F690048> connection opened
+2019-10-18 14:37:27,413 - Main - INFO - ssh admin@20.20.90.31
+admin@20.20.90.31's password: 
+2019-10-18 14:37:32,421 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 09:01:57 2019 from 10.92.116.67
+[admin@CPE31-Performance-810: ~] # 
+2019-10-18 14:37:32,421 - Main - INFO - doing redispatch
+2019-10-18 14:37:52,994 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F690048> connection closed
+2019-10-18 14:37:57,776 - Main - INFO - 
+2019-10-18 14:38:02,977 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:38:02,979 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F91ACC0> connection opened
+2019-10-18 14:38:07,980 - Main - INFO - ssh admin@20.20.72.4
+admin@20.20.72.4's password: 
+2019-10-18 14:38:12,983 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 08:29:37 2019 from 10.92.116.67
+[admin@CPE4-SIN-HYBRID: ~] $ 
+2019-10-18 14:38:12,983 - Main - INFO - doing redispatch
+2019-10-18 14:38:34,742 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F91ACC0> connection closed
+2019-10-18 14:38:39,568 - Main - INFO - 
+2019-10-18 14:38:44,775 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:38:44,775 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F690D30> connection opened
+2019-10-18 14:38:49,775 - Main - INFO - ssh admin@20.20.16.5
+admin@20.20.16.5's password: 
+2019-10-18 14:38:54,776 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Thu Oct 17 16:39:49 2019 from 10.91.194.124
+[admin@CPE5: ~] # 
+2019-10-18 14:38:54,776 - Main - INFO - doing redispatch
+2019-10-18 14:39:09,813 - Main - INFO - 
+2019-10-18 14:39:15,015 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:39:15,015 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F6904A8> connection opened
+2019-10-18 14:39:20,016 - Main - INFO - ssh admin@20.20.16.6
+admin@20.20.16.6's password: 
+2019-10-18 14:39:25,017 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Wed Oct 16 09:30:48 2019 from 10.92.116.67
+admin@CPE6:~$ 
+2019-10-18 14:39:25,017 - Main - INFO - doing redispatch
+2019-10-18 14:39:39,973 - Main - INFO - 
+2019-10-18 14:39:45,174 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:39:45,174 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F690F60> connection opened
+2019-10-18 14:39:50,176 - Main - INFO - ssh admin@20.20.16.8
+admin@20.20.16.8's password: 
+2019-10-18 14:39:55,177 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Thu Oct 17 16:13:46 2019 from 10.91.194.124
+[admin@CPE8: ~] # 
+2019-10-18 14:39:55,177 - Main - INFO - doing redispatch
+2019-10-18 14:40:10,275 - Main - INFO - 
+2019-10-18 14:40:15,476 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:40:15,476 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F91A588> connection opened
+2019-10-18 14:40:20,477 - Main - INFO - ssh admin@20.20.72.153
+admin@20.20.72.153's password: 
+2019-10-18 14:40:25,477 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Thu Oct 17 23:56:40 2019 from 10.91.240.155
+[admin@UCPE3: ~] $ 
+2019-10-18 14:40:25,477 - Main - INFO - doing redispatch
+2019-10-18 14:40:40,032 - Main - INFO - 
+2019-10-18 14:40:45,233 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:40:45,233 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F6905F8> connection opened
+2019-10-18 14:40:50,234 - Main - INFO - ssh admin@20.20.72.157
+admin@20.20.72.157's password: 
+2019-10-18 14:40:55,236 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Thu Oct 17 21:02:17 2019 from 10.91.240.155
+[admin@UCPE7: ~] $ 
+2019-10-18 14:40:55,236 - Main - INFO - doing redispatch
+2019-10-18 14:41:10,016 - Main - INFO - 
+2019-10-18 14:41:15,219 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:41:15,220 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F481748> connection opened
+2019-10-18 14:41:15,221 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:41:15,221 - Main - INFO - after_upgrade Actions for : CPE26-HKG2-DUAL-HYB-IPC00194
+2019-10-18 14:41:15,221 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:41:15,223 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 ping
+2019-10-18 14:41:16,028 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194  ping
+result PING 20.20.94.26 (20.20.94.26) 56(84) bytes of data.
+64 bytes from 20.20.94.26: icmp_seq=1 ttl=61 time=12.6 ms
+
+--- 20.20.94.26 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 12.656/12.656/12.656/0.000 ms
+
+[ok][2019-10-18 09:11:16]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:16,028 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 connect
+2019-10-18 14:41:16,831 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194  connect
+result true
+info (smurugesan2) Connected to CPE26-HKG2-DUAL-HYB-IPC00194 - 20.20.94.26:2022
+[ok][2019-10-18 09:11:17]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:16,832 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 check-sync
+2019-10-18 14:41:17,634 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194  check-sync
+result in-sync
+[ok][2019-10-18 09:11:17]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:17,635 - Main - INFO - CPE26-HKG2-DUAL-HYB-IPC00194 is in sync with VD & able to ping & connect
+2019-10-18 14:41:17,638 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:41:17,638 - Main - INFO - after_upgrade Actions for : CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18
+2019-10-18 14:41:17,638 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:41:17,638 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 ping
+2019-10-18 14:41:18,440 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 ping
+result PING 20.20.90.27 (20.20.90.27) 56(84) bytes of data.
+64 bytes from 20.20.90.27: icmp_seq=1 ttl=61 time=35.8 ms
+
+--- 20.20.90.27 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 35.829/35.829/35.829/0.000 ms
+
+[ok][2019-10-18 09:11:18]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:18,441 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 connect
+2019-10-18 14:41:19,244 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 connect
+result true
+info (smurugesan2) Connected to CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 - 20.20.90.27:2022
+[ok][2019-10-18 09:11:19]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:19,244 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 check-sync
+2019-10-18 14:41:20,049 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 check-sync
+result in-sync
+[ok][2019-10-18 09:11:20]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:20,049 - Main - INFO - CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 is in sync with VD & able to ping & connect
+2019-10-18 14:41:20,051 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:41:20,051 - Main - INFO - after_upgrade Actions for : CPE31-Performance-810
+2019-10-18 14:41:20,051 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:41:20,051 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 ping
+2019-10-18 14:41:20,667 - Main - INFO - request devices device CPE31-Performance-810 ping
+result PING 20.20.90.31 (20.20.90.31) 56(84) bytes of data.
+64 bytes from 20.20.90.31: icmp_seq=1 ttl=61 time=2.97 ms
+
+--- 20.20.90.31 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.975/2.975/2.975/0.000 ms
+
+[ok][2019-10-18 09:11:21]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:20,667 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 connect
+2019-10-18 14:41:21,671 - Main - INFO - request devices device CPE31-Performance-810 connect
+result true
+info (smurugesan2) Connected to CPE31-Performance-810 - 20.20.90.31:2022
+[ok][2019-10-18 09:11:21]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:21,671 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 check-sync
+2019-10-18 14:41:22,275 - Main - INFO - request devices device CPE31-Performance-810 check-sync
+result in-sync
+[ok][2019-10-18 09:11:22]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:22,275 - Main - INFO - CPE31-Performance-810 is in sync with VD & able to ping & connect
+2019-10-18 14:41:22,276 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:41:22,276 - Main - INFO - after_upgrade Actions for : CPE4-SIN-HYBRID
+2019-10-18 14:41:22,276 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 14:41:22,276 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID ping
+2019-10-18 14:41:22,878 - Main - INFO - request devices device CPE4-SIN-HYBRID ping
+result PING 20.20.72.4 (20.20.72.4) 56(84) bytes of data.
+64 bytes from 20.20.72.4: icmp_seq=1 ttl=59 time=3.14 ms
+
+--- 20.20.72.4 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.149/3.149/3.149/0.000 ms
+
+[ok][2019-10-18 09:11:23]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:22,878 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID connect
+2019-10-18 14:41:23,683 - Main - INFO - request devices device CPE4-SIN-HYBRID connect
+result true
+info (smurugesan2) Connected to CPE4-SIN-HYBRID - 20.20.72.4:2022
+[ok][2019-10-18 09:11:24]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:23,683 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID check-sync
+2019-10-18 14:41:24,486 - Main - INFO - request devices device CPE4-SIN-HYBRID check-sync
+result in-sync
+[ok][2019-10-18 09:11:24]
+smurugesan2@VDir-BLR-NEW-01> 
+2019-10-18 14:41:24,486 - Main - INFO - CPE4-SIN-HYBRID is in sync with VD & able to ping & connect
+2019-10-18 14:41:24,519 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F481748> connection closed
+2019-10-18 14:41:29,256 - Main - INFO - 
+2019-10-18 14:41:34,457 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:41:34,457 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776828> connection opened
+2019-10-18 14:41:39,459 - Main - INFO - ssh admin@20.20.94.26
+admin@20.20.94.26's password: 
+2019-10-18 14:41:44,460 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 09:06:07 2019 from 10.92.116.67
+[admin@CPE26-HKG2-DUAL-HYB-IPC00194: ~] $ 
+2019-10-18 14:41:44,460 - Main - INFO - doing redispatch
+2019-10-18 14:42:01,769 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776828> connection closed
+2019-10-18 14:42:06,553 - Main - INFO - 
+2019-10-18 14:42:11,755 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:42:11,755 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F2EB5F8> connection opened
+2019-10-18 14:42:16,756 - Main - INFO - ssh admin@20.20.90.27
+admin@20.20.90.27's password: 
+2019-10-18 14:42:21,756 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 09:06:38 2019 from 10.92.116.67
+[admin@CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18: ~] # 
+2019-10-18 14:42:21,757 - Main - INFO - doing redispatch
+2019-10-18 14:42:41,335 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F2EB5F8> connection closed
+2019-10-18 14:42:46,094 - Main - INFO - 
+2019-10-18 14:42:51,296 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:42:51,296 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F415390> connection opened
+2019-10-18 14:42:56,302 - Main - INFO - ssh admin@20.20.90.31
+admin@20.20.90.31's password: 
+2019-10-18 14:43:01,303 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 09:07:21 2019 from 10.92.116.67
+[admin@CPE31-Performance-810: ~] # 
+2019-10-18 14:43:01,303 - Main - INFO - doing redispatch
+2019-10-18 14:43:19,519 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F415390> connection closed
+2019-10-18 14:43:24,467 - Main - INFO - 
+2019-10-18 14:43:29,680 - Main - INFO - versa: smurugesan2@VDir-BLR-NEW-01>
+2019-10-18 14:43:29,680 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776828> connection opened
+2019-10-18 14:43:34,686 - Main - INFO - ssh admin@20.20.72.4
+admin@20.20.72.4's password: 
+2019-10-18 14:43:39,691 - Main - INFO - 
+             .---.,
+            (      ``.
+       _     \        )    __      ________ _____   _____
+      (  `.   \      /     \ \    / /  ____|  __ \ / ____|  /\
+       \    `. )    /       \ \  / /| |__  | |__) | (___   /  \
+        \     |    /         \ \/ / |  __| |  _  / \___ \ / /\ \
+         \    |   /           \  /  | |____| | \ \ ____) / ____ \
+          \   |  /             \/   |______|_|  \_\_____/_/    \_\
+           \  | /
+            \_|/                     ___ _    _____  ___   ___  _ ___
+                                    | __| |  | __\ \/ | \ / / \| | __|
+                                    | _|| |__| _| >  < \ V /| .` | _|
+                                    |_| |____|___/_/\_\ \_/ |_|\_|_|
+
+
+Versa FlexVNF software
+Release     :	16.1R2 (S9)
+Release date:	20190628
+Package ID  :	80561de	
+
+Last login: Fri Oct 18 08:35:41 2019 from 10.92.116.67
+[admin@CPE4-SIN-HYBRID: ~] $ 
+2019-10-18 14:43:39,691 - Main - INFO - doing redispatch
+2019-10-18 14:43:58,618 - Main - INFO - <netmiko.versa.versa.VersaSSH object at 0x000000000F776828> connection closed
+2019-10-18 14:43:58,622 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,622 - Main - INFO - cpe:CPE19
+2019-10-18 14:43:58,622 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 14:43:58,622 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,622 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,622 - Main - INFO - cpe:CPE22HKG-HYBRID
+2019-10-18 14:43:58,622 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 14:43:58,622 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,624 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,624 - Main - INFO - cpe:CPE23-SIN-HYBRID
+2019-10-18 14:43:58,624 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 14:43:58,624 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,624 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,624 - Main - INFO - cpe:CPE-14
+2019-10-18 14:43:58,624 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,624 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,624 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,624 - Main - INFO - cpe:CPE1-SIN-HYBRID
+2019-10-18 14:43:58,624 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,625 - Main - INFO - cpe:CPE16-SIN-MPLSONLY
+2019-10-18 14:43:58,625 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,625 - Main - INFO - cpe:CPE19-Test
+2019-10-18 14:43:58,625 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,625 - Main - INFO - cpe:CPE20
+2019-10-18 14:43:58,625 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,625 - Main - INFO - cpe:CPE-50
+2019-10-18 14:43:58,625 - Main - INFO - upgrade:Failed to upgrade - versa-flexvnf-20190628-153900-80561de-16.1R2S9 to versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm
+2019-10-18 14:43:58,625 - Main - INFO - interface:OK
+2019-10-18 14:43:58,625 - Main - INFO - bgp_nbr_match:OK
+2019-10-18 14:43:58,625 - Main - INFO - route_match:OK
+2019-10-18 14:43:58,625 - Main - INFO - config_match:OK
+2019-10-18 14:43:58,625 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,627 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,627 - Main - INFO - cpe:CPE25-Performance-DUT
+2019-10-18 14:43:58,627 - Main - INFO - upgrade:Failed to upgrade - versa-flexvnf-20190628-153900-80561de-16.1R2S9 to versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm
+2019-10-18 14:43:58,627 - Main - INFO - interface:OK
+2019-10-18 14:43:58,627 - Main - INFO - bgp_nbr_match:OK
+2019-10-18 14:43:58,627 - Main - INFO - route_match:OK
+2019-10-18 14:43:58,627 - Main - INFO - config_match:OK
+2019-10-18 14:43:58,627 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,627 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,627 - Main - INFO - cpe:CPE7
+2019-10-18 14:43:58,627 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 14:43:58,627 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - cpe:CPE5
+2019-10-18 14:43:58,628 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - cpe:CPE6
+2019-10-18 14:43:58,628 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - cpe:CPE8
+2019-10-18 14:43:58,628 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - cpe:UCPE3
+2019-10-18 14:43:58,628 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - cpe:UCPE7
+2019-10-18 14:43:58,628 - Main - INFO - upgrade:device already running with same package
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,628 - Main - INFO - cpe:CPE26-HKG2-DUAL-HYB-IPC00194
+2019-10-18 14:43:58,628 - Main - INFO - upgrade:Failed to upgrade - versa-flexvnf-20190628-153900-80561de-16.1R2S9 to versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm
+2019-10-18 14:43:58,630 - Main - INFO - interface:OK
+2019-10-18 14:43:58,630 - Main - INFO - bgp_nbr_match:OK
+2019-10-18 14:43:58,630 - Main - INFO - route_match:OK
+2019-10-18 14:43:58,630 - Main - INFO - config_match:OK
+2019-10-18 14:43:58,630 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,630 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,630 - Main - INFO - cpe:CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18
+2019-10-18 14:43:58,630 - Main - INFO - upgrade:Failed to upgrade - versa-flexvnf-20190628-153900-80561de-16.1R2S9 to versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm
+2019-10-18 14:43:58,630 - Main - INFO - interface:OK
+2019-10-18 14:43:58,630 - Main - INFO - bgp_nbr_match:OK
+2019-10-18 14:43:58,630 - Main - INFO - route_match:OK
+2019-10-18 14:43:58,631 - Main - INFO - config_match:OK
+2019-10-18 14:43:58,631 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,631 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,631 - Main - INFO - cpe:CPE31-Performance-810
+2019-10-18 14:43:58,631 - Main - INFO - upgrade:Failed to upgrade - versa-flexvnf-20190628-153900-80561de-16.1R2S9 to versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm
+2019-10-18 14:43:58,631 - Main - INFO - interface:OK
+2019-10-18 14:43:58,631 - Main - INFO - bgp_nbr_match:OK
+2019-10-18 14:43:58,631 - Main - INFO - route_match:OK
+2019-10-18 14:43:58,631 - Main - INFO - config_match:OK
+2019-10-18 14:43:58,631 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,631 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,631 - Main - INFO - cpe:CPE4-SIN-HYBRID
+2019-10-18 14:43:58,631 - Main - INFO - upgrade:Failed to upgrade - versa-flexvnf-20190628-153900-80561de-16.1R2S9 to versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm
+2019-10-18 14:43:58,631 - Main - INFO - interface:OK
+2019-10-18 14:43:58,631 - Main - INFO - bgp_nbr_match:OK
+2019-10-18 14:43:58,631 - Main - INFO - route_match:OK
+2019-10-18 14:43:58,631 - Main - INFO - config_match:OK
+2019-10-18 14:43:58,631 - Main - INFO - ====================================================================================================
+2019-10-18 14:43:58,632 - Main - INFO - Time elapsed: 0:16:43.561000
+
+2019-10-18 14:43:58,632 - Main - INFO - Result Stored in C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL/LOGS/10.91.127.194_2019_10_18_14_27_15//RESULT.csv
+2019-10-18 14:43:58,632 - Main - INFO - LOG FILES Path: C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL/LOGS/10.91.127.194_2019_10_18_14_27_15/

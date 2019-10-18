@@ -1,0 +1,10 @@
+2019-10-18 15:46:44,388 - CPE20 - INFO - CMD>> : show system package-info | tab
+2019-10-18 15:46:45,394 - CPE20 - INFO - show system package-info | tab
+PACKAGE                                                                                       BUILD                   
+ID       MAJOR  MINOR  DATE      PACKAGE NAME                                        RELTYPE  TYPE   BRANCH  CREATOR  
+----------------------------------------------------------------------------------------------------------------------
+80561de  16     1      20190628  versa-flexvnf-20190628-153930-80561de-16.1R2S9-wsm  R2       S9     16.1R2  jenkins  
+
+[ok][2019-10-18 10:17:00]
+admin@CPE20-cli> 
+2019-10-18 15:46:45,413 - CPE20 - INFO - CPE20 : device already running with same package

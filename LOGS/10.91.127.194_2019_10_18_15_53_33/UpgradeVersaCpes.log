@@ -1,0 +1,711 @@
+2019-10-18 15:53:33,667 - Main - INFO - SCRIPT Started
+2019-10-18 15:53:33,667 - Main - INFO - Result  File : C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL/LOGS/10.91.127.194_2019_10_18_15_53_33//RESULT.csv
+2019-10-18 15:53:33,670 - Main - INFO - LOG FILES Path: C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL/LOGS/10.91.127.194_2019_10_18_15_53_33/
+2019-10-18 15:54:29,237 - Main - INFO - DAY :1
+2019-10-18 15:54:29,239 - Main - INFO - Batch : 1
+2019-10-18 15:54:29,239 - Main - INFO - BELOW ARE THE CPEs going for Upgrade:
+2019-10-18 15:54:29,239 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:29,247 - Main - INFO - CPE-14
+2019-10-18 15:54:29,249 - Main - INFO - CPE-50
+2019-10-18 15:54:29,249 - Main - INFO - CPE1-SIN-HYBRID
+2019-10-18 15:54:29,249 - Main - INFO - CPE16-SIN-MPLSONLY
+2019-10-18 15:54:29,250 - Main - INFO - CPE19
+2019-10-18 15:54:29,250 - Main - INFO - CPE20
+2019-10-18 15:54:29,252 - Main - INFO - CPE22HKG-HYBRID
+2019-10-18 15:54:29,253 - Main - INFO - CPE23-SIN-HYBRID
+2019-10-18 15:54:29,253 - Main - INFO - CPE25-Performance-DUT
+2019-10-18 15:54:29,253 - Main - INFO - CPE26-HKG2-DUAL-HYB-IPC00194
+2019-10-18 15:54:29,255 - Main - INFO - CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18
+2019-10-18 15:54:29,256 - Main - INFO - CPE31-Performance-810
+2019-10-18 15:54:29,256 - Main - INFO - CPE4-SIN-HYBRID
+2019-10-18 15:54:29,256 - Main - INFO - CPE45-VoIP
+2019-10-18 15:54:29,257 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:34,999 - Main - INFO - 
+2019-10-18 15:54:40,213 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:40,217 - Main - INFO - before_upgrade Actions for : CPE-14
+2019-10-18 15:54:40,219 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:40,220 - Main - INFO - CMD>> : request devices device CPE-14 ping
+2019-10-18 15:54:41,026 - Main - INFO - request devices device CPE-14 ping
+result PING 20.20.72.14 (20.20.72.14) 56(84) bytes of data.
+64 bytes from 20.20.72.14: icmp_seq=1 ttl=59 time=3.79 ms
+
+--- 20.20.72.14 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.790/3.790/3.790/0.000 ms
+
+[ok][2019-10-18 10:24:40]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:41,033 - Main - INFO - CMD>> : request devices device CPE-14 connect
+2019-10-18 15:54:41,838 - Main - INFO - request devices device CPE-14 connect
+result true
+info (Automated) Connected to CPE-14 - 20.20.72.14:2022
+[ok][2019-10-18 10:24:41]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:41,842 - Main - INFO - CMD>> : request devices device CPE-14 check-sync
+2019-10-18 15:54:42,648 - Main - INFO - request devices device CPE-14 check-sync
+result in-sync
+[ok][2019-10-18 10:24:42]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:42,653 - Main - INFO - CPE-14 is in sync with VD & able to ping & connect
+2019-10-18 15:54:42,660 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:42,661 - Main - INFO - before_upgrade Actions for : CPE-50
+2019-10-18 15:54:42,664 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:42,665 - Main - INFO - CMD>> : request devices device CPE-50 ping
+2019-10-18 15:54:43,275 - Main - INFO - request devices device CPE-50 ping
+result PING 20.20.16.50 (20.20.16.50) 56(84) bytes of data.
+64 bytes from 20.20.16.50: icmp_seq=1 ttl=61 time=5.27 ms
+
+--- 20.20.16.50 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.271/5.271/5.271/0.000 ms
+
+[ok][2019-10-18 10:24:43]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:43,282 - Main - INFO - CMD>> : request devices device CPE-50 connect
+2019-10-18 15:54:44,085 - Main - INFO - request devices device CPE-50 connect
+result true
+info (Automated) Connected to CPE-50 - 20.20.16.50:2022
+[ok][2019-10-18 10:24:44]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:44,088 - Main - INFO - CMD>> : request devices device CPE-50 check-sync
+2019-10-18 15:54:44,894 - Main - INFO - request devices device CPE-50 check-sync
+result in-sync
+[ok][2019-10-18 10:24:44]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:44,897 - Main - INFO - CPE-50 is in sync with VD & able to ping & connect
+2019-10-18 15:54:44,901 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:44,904 - Main - INFO - before_upgrade Actions for : CPE1-SIN-HYBRID
+2019-10-18 15:54:44,905 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:44,908 - Main - INFO - CMD>> : request devices device CPE1-SIN-HYBRID ping
+2019-10-18 15:54:45,513 - Main - INFO - request devices device CPE1-SIN-HYBRID ping
+result PING 20.20.72.1 (20.20.72.1) 56(84) bytes of data.
+64 bytes from 20.20.72.1: icmp_seq=1 ttl=61 time=4.17 ms
+
+--- 20.20.72.1 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.175/4.175/4.175/0.000 ms
+
+[ok][2019-10-18 10:24:45]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:45,515 - Main - INFO - CMD>> : request devices device CPE1-SIN-HYBRID connect
+2019-10-18 15:54:46,316 - Main - INFO - request devices device CPE1-SIN-HYBRID connect
+result true
+info (Automated) Connected to CPE1-SIN-HYBRID - 20.20.72.1:2022
+[ok][2019-10-18 10:24:46]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:46,318 - Main - INFO - CMD>> : request devices device CPE1-SIN-HYBRID check-sync
+2019-10-18 15:54:47,118 - Main - INFO - request devices device CPE1-SIN-HYBRID check-sync
+result in-sync
+[ok][2019-10-18 10:24:47]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:47,122 - Main - INFO - CPE1-SIN-HYBRID is in sync with VD & able to ping & connect
+2019-10-18 15:54:47,128 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:47,130 - Main - INFO - before_upgrade Actions for : CPE16-SIN-MPLSONLY
+2019-10-18 15:54:47,131 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:47,134 - Main - INFO - CMD>> : request devices device CPE16-SIN-MPLSONLY ping
+2019-10-18 15:54:47,740 - Main - INFO - request devices device CPE16-SIN-MPLSONLY ping
+result PING 20.20.72.16 (20.20.72.16) 56(84) bytes of data.
+64 bytes from 20.20.72.16: icmp_seq=1 ttl=59 time=4.69 ms
+
+--- 20.20.72.16 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.693/4.693/4.693/0.000 ms
+
+[ok][2019-10-18 10:24:47]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:47,747 - Main - INFO - CMD>> : request devices device CPE16-SIN-MPLSONLY connect
+2019-10-18 15:54:48,552 - Main - INFO - request devices device CPE16-SIN-MPLSONLY connect
+result true
+info (Automated) Connected to CPE16-SIN-MPLSONLY - 20.20.72.16:2022
+[ok][2019-10-18 10:24:48]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:48,555 - Main - INFO - CMD>> : request devices device CPE16-SIN-MPLSONLY check-sync
+2019-10-18 15:54:49,359 - Main - INFO - request devices device CPE16-SIN-MPLSONLY check-sync
+result in-sync
+[ok][2019-10-18 10:24:49]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:54:49,362 - Main - INFO - CPE16-SIN-MPLSONLY is in sync with VD & able to ping & connect
+2019-10-18 15:54:49,369 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:49,372 - Main - INFO - before_upgrade Actions for : CPE19
+2019-10-18 15:54:49,375 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:54:49,377 - Main - INFO - CMD>> : request devices device CPE19 ping
+2019-10-18 15:55:00,009 - Main - INFO - request devices device CPE19 ping
+result PING 20.20.16.19 (20.20.16.19) 56(84) bytes of data.
+
+--- 20.20.16.19 ping statistics ---
+1 packets transmitted, 0 received, 100% packet loss, time 0ms
+
+
+[ok][2019-10-18 10:24:59]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:00,015 - Main - INFO - VD --> CPE Request ping failed.
+2019-10-18 15:55:00,023 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:00,026 - Main - INFO - before_upgrade Actions for : CPE20
+2019-10-18 15:55:00,029 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:00,030 - Main - INFO - CMD>> : request devices device CPE20 ping
+2019-10-18 15:55:00,634 - Main - INFO - request devices device CPE20 ping
+result PING 20.20.16.20 (20.20.16.20) 56(84) bytes of data.
+64 bytes from 20.20.16.20: icmp_seq=1 ttl=59 time=3.49 ms
+
+--- 20.20.16.20 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.493/3.493/3.493/0.000 ms
+
+[ok][2019-10-18 10:25:00]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:00,641 - Main - INFO - CMD>> : request devices device CPE20 connect
+2019-10-18 15:55:01,446 - Main - INFO - request devices device CPE20 connect
+result true
+info (Automated) Connected to CPE20 - 20.20.16.20:2022
+[ok][2019-10-18 10:25:01]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:01,447 - Main - INFO - CMD>> : request devices device CPE20 check-sync
+2019-10-18 15:55:02,252 - Main - INFO - request devices device CPE20 check-sync
+result in-sync
+[ok][2019-10-18 10:25:02]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:02,253 - Main - INFO - CPE20 is in sync with VD & able to ping & connect
+2019-10-18 15:55:02,257 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:02,259 - Main - INFO - before_upgrade Actions for : CPE22HKG-HYBRID
+2019-10-18 15:55:02,260 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:02,263 - Main - INFO - CMD>> : request devices device CPE22HKG-HYBRID ping
+2019-10-18 15:55:02,865 - Main - INFO - request devices device CPE22HKG-HYBRID ping
+result PING 20.20.72.22 (20.20.72.22) 56(84) bytes of data.
+64 bytes from 20.20.72.22: icmp_seq=1 ttl=61 time=5.39 ms
+
+--- 20.20.72.22 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 5.395/5.395/5.395/0.000 ms
+
+[ok][2019-10-18 10:25:02]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:02,875 - Main - INFO - CMD>> : request devices device CPE22HKG-HYBRID connect
+2019-10-18 15:55:03,680 - Main - INFO - request devices device CPE22HKG-HYBRID connect
+result true
+info (Automated) Connected to CPE22HKG-HYBRID - 20.20.72.22:2022
+[ok][2019-10-18 10:25:03]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:03,684 - Main - INFO - CMD>> : request devices device CPE22HKG-HYBRID check-sync
+2019-10-18 15:55:04,490 - Main - INFO - request devices device CPE22HKG-HYBRID check-sync
+result out-of-sync
+info got: 1571-309257-753672@vcn0 expected: 1570-84277-987697@vcn0
+
+[ok][2019-10-18 10:25:04]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:04,494 - Main - INFO - CPE out-of sync.
+2019-10-18 15:55:04,506 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:04,509 - Main - INFO - before_upgrade Actions for : CPE23-SIN-HYBRID
+2019-10-18 15:55:04,510 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:04,515 - Main - INFO - CMD>> : request devices device CPE23-SIN-HYBRID ping
+2019-10-18 15:55:05,119 - Main - INFO - request devices device CPE23-SIN-HYBRID ping
+result PING 20.20.72.23 (20.20.72.23) 56(84) bytes of data.
+64 bytes from 20.20.72.23: icmp_seq=1 ttl=61 time=3.49 ms
+
+--- 20.20.72.23 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.496/3.496/3.496/0.000 ms
+
+[ok][2019-10-18 10:25:05]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:05,128 - Main - INFO - CMD>> : request devices device CPE23-SIN-HYBRID connect
+2019-10-18 15:55:05,934 - Main - INFO - request devices device CPE23-SIN-HYBRID connect
+result true
+info (Automated) Connected to CPE23-SIN-HYBRID - 20.20.72.23:2022
+[ok][2019-10-18 10:25:05]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:05,940 - Main - INFO - CMD>> : request devices device CPE23-SIN-HYBRID check-sync
+2019-10-18 15:55:06,746 - Main - INFO - request devices device CPE23-SIN-HYBRID check-sync
+result out-of-sync
+info got: 1571-309330-201583@vcn0 expected: 1570-790279-35419@vcn0
+
+[ok][2019-10-18 10:25:06]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:06,746 - Main - INFO - CPE out-of sync.
+2019-10-18 15:55:06,750 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:06,752 - Main - INFO - before_upgrade Actions for : CPE25-Performance-DUT
+2019-10-18 15:55:06,753 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:06,753 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT ping
+2019-10-18 15:55:07,556 - Main - INFO - request devices device CPE25-Performance-DUT ping
+result PING 20.20.90.25 (20.20.90.25) 56(84) bytes of data.
+64 bytes from 20.20.90.25: icmp_seq=1 ttl=61 time=14.1 ms
+
+--- 20.20.90.25 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 14.101/14.101/14.101/0.000 ms
+
+[ok][2019-10-18 10:25:07]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:07,559 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT connect
+2019-10-18 15:55:08,361 - Main - INFO - request devices device CPE25-Performance-DUT connect
+result true
+info (Automated) Connected to CPE25-Performance-DUT - 20.20.90.25:2022
+[ok][2019-10-18 10:25:08]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:08,365 - Main - INFO - CMD>> : request devices device CPE25-Performance-DUT check-sync
+2019-10-18 15:55:09,171 - Main - INFO - request devices device CPE25-Performance-DUT check-sync
+result in-sync
+[ok][2019-10-18 10:25:09]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:09,174 - Main - INFO - CPE25-Performance-DUT is in sync with VD & able to ping & connect
+2019-10-18 15:55:09,178 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:09,181 - Main - INFO - before_upgrade Actions for : CPE26-HKG2-DUAL-HYB-IPC00194
+2019-10-18 15:55:09,184 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:09,187 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 ping
+2019-10-18 15:55:09,990 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194 ping
+result PING 20.20.94.26 (20.20.94.26) 56(84) bytes of data.
+64 bytes from 20.20.94.26: icmp_seq=1 ttl=61 time=7.08 ms
+
+--- 20.20.94.26 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 7.082/7.082/7.082/0.000 ms
+
+[ok][2019-10-18 10:25:09]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:09,996 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 connect
+2019-10-18 15:55:10,801 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194 connect
+result true
+info (Automated) Connected to CPE26-HKG2-DUAL-HYB-IPC00194 - 20.20.94.26:2022
+[ok][2019-10-18 10:25:10]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:10,803 - Main - INFO - CMD>> : request devices device CPE26-HKG2-DUAL-HYB-IPC00194 check-sync
+2019-10-18 15:55:11,605 - Main - INFO - request devices device CPE26-HKG2-DUAL-HYB-IPC00194 check-sync
+result in-sync
+[ok][2019-10-18 10:25:11]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:11,609 - Main - INFO - CPE26-HKG2-DUAL-HYB-IPC00194 is in sync with VD & able to ping & connect
+2019-10-18 15:55:11,614 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:11,615 - Main - INFO - before_upgrade Actions for : CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18
+2019-10-18 15:55:11,618 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:11,625 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 ping
+2019-10-18 15:55:12,236 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 ping
+result PING 20.20.90.27 (20.20.90.27) 56(84) bytes of data.
+64 bytes from 20.20.90.27: icmp_seq=1 ttl=61 time=2.56 ms
+
+--- 20.20.90.27 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.567/2.567/2.567/0.000 ms
+
+[ok][2019-10-18 10:25:12]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:12,240 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 connect
+2019-10-18 15:55:13,045 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 connect
+result true
+info (Automated) Connected to CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 - 20.20.90.27:2022
+[ok][2019-10-18 10:25:12]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:13,059 - Main - INFO - CMD>> : request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 check-sync
+2019-10-18 15:55:13,867 - Main - INFO - request devices device CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 check-sync
+result in-sync
+[ok][2019-10-18 10:25:13]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:13,869 - Main - INFO - CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 is in sync with VD & able to ping & connect
+2019-10-18 15:55:13,872 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:13,874 - Main - INFO - before_upgrade Actions for : CPE31-Performance-810
+2019-10-18 15:55:13,875 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:13,875 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 ping
+2019-10-18 15:55:14,476 - Main - INFO - request devices device CPE31-Performance-810 ping
+result PING 20.20.90.31 (20.20.90.31) 56(84) bytes of data.
+64 bytes from 20.20.90.31: icmp_seq=1 ttl=61 time=10.3 ms
+
+--- 20.20.90.31 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 10.351/10.351/10.351/0.000 ms
+
+[ok][2019-10-18 10:25:14]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:14,483 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 connect
+2019-10-18 15:55:15,289 - Main - INFO - request devices device CPE31-Performance-810 connect
+result true
+info (Automated) Connected to CPE31-Performance-810 - 20.20.90.31:2022
+[ok][2019-10-18 10:25:15]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:15,292 - Main - INFO - CMD>> : request devices device CPE31-Performance-810 check-sync
+2019-10-18 15:55:15,898 - Main - INFO - request devices device CPE31-Performance-810 check-sync
+result in-sync
+[ok][2019-10-18 10:25:15]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:15,901 - Main - INFO - CPE31-Performance-810 is in sync with VD & able to ping & connect
+2019-10-18 15:55:15,905 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:15,908 - Main - INFO - before_upgrade Actions for : CPE4-SIN-HYBRID
+2019-10-18 15:55:15,911 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:15,913 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID ping
+2019-10-18 15:55:16,517 - Main - INFO - request devices device CPE4-SIN-HYBRID ping
+result PING 20.20.72.4 (20.20.72.4) 56(84) bytes of data.
+64 bytes from 20.20.72.4: icmp_seq=1 ttl=59 time=2.58 ms
+
+--- 20.20.72.4 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.583/2.583/2.583/0.000 ms
+
+[ok][2019-10-18 10:25:16]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:16,525 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID connect
+2019-10-18 15:55:17,328 - Main - INFO - request devices device CPE4-SIN-HYBRID connect
+result true
+info (Automated) Connected to CPE4-SIN-HYBRID - 20.20.72.4:2022
+[ok][2019-10-18 10:25:17]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:17,332 - Main - INFO - CMD>> : request devices device CPE4-SIN-HYBRID check-sync
+2019-10-18 15:55:18,137 - Main - INFO - request devices device CPE4-SIN-HYBRID check-sync
+result in-sync
+[ok][2019-10-18 10:25:18]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:18,141 - Main - INFO - CPE4-SIN-HYBRID is in sync with VD & able to ping & connect
+2019-10-18 15:55:18,147 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:18,148 - Main - INFO - before_upgrade Actions for : CPE45-VoIP
+2019-10-18 15:55:18,151 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:18,154 - Main - INFO - CMD>> : request devices device CPE45-VoIP ping
+2019-10-18 15:55:18,756 - Main - INFO - request devices device CPE45-VoIP ping
+result PING 20.20.90.45 (20.20.90.45) 56(84) bytes of data.
+64 bytes from 20.20.90.45: icmp_seq=1 ttl=61 time=6.47 ms
+
+--- 20.20.90.45 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.474/6.474/6.474/0.000 ms
+
+[ok][2019-10-18 10:25:18]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:18,760 - Main - INFO - CMD>> : request devices device CPE45-VoIP connect
+2019-10-18 15:55:19,563 - Main - INFO - request devices device CPE45-VoIP connect
+result true
+info (Automated) Connected to CPE45-VoIP - 20.20.90.45:2022
+[ok][2019-10-18 10:25:19]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:19,568 - Main - INFO - CMD>> : request devices device CPE45-VoIP check-sync
+2019-10-18 15:55:20,371 - Main - INFO - request devices device CPE45-VoIP check-sync
+result out-of-sync
+info got: 1571-390242-620243@vcn0 expected: 1569-473321-987980@vcn0
+
+[ok][2019-10-18 10:25:20]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:55:20,375 - Main - INFO - CPE out-of sync.
+2019-10-18 15:55:25,244 - Main - INFO - 
+2019-10-18 15:55:31,453 - Main - INFO - CPE-14 : device already running with same package
+2019-10-18 15:55:36,467 - Main - INFO - CPE-50 : device already running with same package
+2019-10-18 15:55:37,673 - Main - INFO - CPE1-SIN-HYBRID : device already running with same package
+2019-10-18 15:55:38,678 - Main - INFO - CPE16-SIN-MPLSONLY : device already running with same package
+2019-10-18 15:55:39,885 - Main - INFO - CPE20 : device already running with same package
+2019-10-18 15:55:41,092 - Main - INFO - CPE25-Performance-DUT : device already running with same package
+2019-10-18 15:55:42,298 - Main - INFO - CPE26-HKG2-DUAL-HYB-IPC00194 : device already running with same package
+2019-10-18 15:55:43,506 - Main - INFO - CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18 : device already running with same package
+2019-10-18 15:55:44,716 - Main - INFO - CPE31-Performance-810 : device already running with same package
+2019-10-18 15:55:46,124 - Main - INFO - CPE4-SIN-HYBRID : device already running with same package
+2019-10-18 15:55:50,993 - Main - INFO - 
+2019-10-18 15:55:56,233 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,236 - Main - INFO - cpe:CPE19
+2019-10-18 15:55:56,237 - Main - INFO - upgrade:VD --> CPE Request ping failed.
+2019-10-18 15:55:56,239 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,247 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,250 - Main - INFO - cpe:CPE22HKG-HYBRID
+2019-10-18 15:55:56,253 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 15:55:56,253 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,256 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,283 - Main - INFO - cpe:CPE23-SIN-HYBRID
+2019-10-18 15:55:56,286 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 15:55:56,286 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,286 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,288 - Main - INFO - cpe:CPE45-VoIP
+2019-10-18 15:55:56,289 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 15:55:56,289 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,290 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,292 - Main - INFO - cpe:CPE-14
+2019-10-18 15:55:56,292 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,292 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,293 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,295 - Main - INFO - cpe:CPE-50
+2019-10-18 15:55:56,295 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,296 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,296 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,299 - Main - INFO - cpe:CPE1-SIN-HYBRID
+2019-10-18 15:55:56,299 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,299 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,301 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,302 - Main - INFO - cpe:CPE16-SIN-MPLSONLY
+2019-10-18 15:55:56,302 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,302 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,303 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,303 - Main - INFO - cpe:CPE20
+2019-10-18 15:55:56,303 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,303 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,305 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,306 - Main - INFO - cpe:CPE25-Performance-DUT
+2019-10-18 15:55:56,308 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,308 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,309 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,309 - Main - INFO - cpe:CPE26-HKG2-DUAL-HYB-IPC00194
+2019-10-18 15:55:56,311 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,311 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,312 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,312 - Main - INFO - cpe:CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18
+2019-10-18 15:55:56,313 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,315 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,315 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,316 - Main - INFO - cpe:CPE31-Performance-810
+2019-10-18 15:55:56,316 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,318 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,319 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,319 - Main - INFO - cpe:CPE4-SIN-HYBRID
+2019-10-18 15:55:56,319 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:55:56,319 - Main - INFO - ====================================================================================================
+2019-10-18 15:55:56,328 - Main - INFO - DAY :1
+2019-10-18 15:55:56,328 - Main - INFO - Batch : 2
+2019-10-18 15:55:56,328 - Main - INFO - BELOW ARE THE CPEs going for Upgrade:
+2019-10-18 15:55:56,329 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:55:56,331 - Main - INFO - CPE5
+2019-10-18 15:55:56,332 - Main - INFO - CPE6
+2019-10-18 15:55:56,332 - Main - INFO - CPE7
+2019-10-18 15:55:56,334 - Main - INFO - CPE8
+2019-10-18 15:55:56,334 - Main - INFO - UCPE3
+2019-10-18 15:55:56,335 - Main - INFO - UCPE7
+2019-10-18 15:55:56,335 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:02,144 - Main - INFO - 
+2019-10-18 15:56:07,351 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:07,354 - Main - INFO - before_upgrade Actions for : CPE5
+2019-10-18 15:56:07,355 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:07,358 - Main - INFO - CMD>> : request devices device CPE5 ping
+2019-10-18 15:56:08,164 - Main - INFO - request devices device CPE5 ping
+result PING 20.20.16.5 (20.20.16.5) 56(84) bytes of data.
+64 bytes from 20.20.16.5: icmp_seq=1 ttl=61 time=6.04 ms
+
+--- 20.20.16.5 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 6.042/6.042/6.042/0.000 ms
+
+[ok][2019-10-18 10:26:08]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:08,168 - Main - INFO - CMD>> : request devices device CPE5 connect
+2019-10-18 15:56:08,973 - Main - INFO - request devices device CPE5 connect
+result true
+info (Automated) Connected to CPE5 - 20.20.16.5:2022
+[ok][2019-10-18 10:26:08]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:08,976 - Main - INFO - CMD>> : request devices device CPE5 check-sync
+2019-10-18 15:56:09,780 - Main - INFO - request devices device CPE5 check-sync
+result in-sync
+[ok][2019-10-18 10:26:09]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:09,782 - Main - INFO - CPE5 is in sync with VD & able to ping & connect
+2019-10-18 15:56:09,783 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:09,786 - Main - INFO - before_upgrade Actions for : CPE6
+2019-10-18 15:56:09,786 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:09,788 - Main - INFO - CMD>> : request devices device CPE6 ping
+2019-10-18 15:56:10,391 - Main - INFO - request devices device CPE6 ping
+result PING 20.20.16.6 (20.20.16.6) 56(84) bytes of data.
+64 bytes from 20.20.16.6: icmp_seq=1 ttl=61 time=9.99 ms
+
+--- 20.20.16.6 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 9.993/9.993/9.993/0.000 ms
+
+[ok][2019-10-18 10:26:10]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:10,398 - Main - INFO - CMD>> : request devices device CPE6 connect
+2019-10-18 15:56:11,201 - Main - INFO - request devices device CPE6 connect
+result true
+info (Automated) Connected to CPE6 - 20.20.16.6:2022
+[ok][2019-10-18 10:26:11]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:11,207 - Main - INFO - CMD>> : request devices device CPE6 check-sync
+2019-10-18 15:56:12,015 - Main - INFO - request devices device CPE6 check-sync
+result in-sync
+[ok][2019-10-18 10:26:11]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:12,017 - Main - INFO - CPE6 is in sync with VD & able to ping & connect
+2019-10-18 15:56:12,023 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:12,026 - Main - INFO - before_upgrade Actions for : CPE7
+2019-10-18 15:56:12,029 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:12,030 - Main - INFO - CMD>> : request devices device CPE7 ping
+2019-10-18 15:56:12,634 - Main - INFO - request devices device CPE7 ping
+result PING 20.20.16.7 (20.20.16.7) 56(84) bytes of data.
+64 bytes from 20.20.16.7: icmp_seq=1 ttl=61 time=4.29 ms
+
+--- 20.20.16.7 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 4.296/4.296/4.296/0.000 ms
+
+[ok][2019-10-18 10:26:12]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:12,640 - Main - INFO - CMD>> : request devices device CPE7 connect
+2019-10-18 15:56:13,446 - Main - INFO - request devices device CPE7 connect
+result true
+info (Automated) Connected to CPE7 - 20.20.16.7:2022
+[ok][2019-10-18 10:26:13]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:13,448 - Main - INFO - CMD>> : request devices device CPE7 check-sync
+2019-10-18 15:56:14,253 - Main - INFO - request devices device CPE7 check-sync
+result out-of-sync
+info got: 1571-330992-337633@vcn0 expected: 1571-111726-25964@vcn0
+
+[ok][2019-10-18 10:26:14]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:14,257 - Main - INFO - CPE out-of sync.
+2019-10-18 15:56:14,269 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:14,272 - Main - INFO - before_upgrade Actions for : CPE8
+2019-10-18 15:56:14,273 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:14,278 - Main - INFO - CMD>> : request devices device CPE8 ping
+2019-10-18 15:56:14,888 - Main - INFO - request devices device CPE8 ping
+result PING 20.20.16.8 (20.20.16.8) 56(84) bytes of data.
+64 bytes from 20.20.16.8: icmp_seq=1 ttl=61 time=3.71 ms
+
+--- 20.20.16.8 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.717/3.717/3.717/0.000 ms
+
+[ok][2019-10-18 10:26:14]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:14,897 - Main - INFO - CMD>> : request devices device CPE8 connect
+2019-10-18 15:56:15,701 - Main - INFO - request devices device CPE8 connect
+result true
+info (Automated) Connected to CPE8 - 20.20.16.8:2022
+[ok][2019-10-18 10:26:15]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:15,707 - Main - INFO - CMD>> : request devices device CPE8 check-sync
+2019-10-18 15:56:16,513 - Main - INFO - request devices device CPE8 check-sync
+result in-sync
+[ok][2019-10-18 10:26:16]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:16,516 - Main - INFO - CPE8 is in sync with VD & able to ping & connect
+2019-10-18 15:56:16,529 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:16,532 - Main - INFO - before_upgrade Actions for : UCPE3
+2019-10-18 15:56:16,535 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:16,536 - Main - INFO - CMD>> : request devices device UCPE3 ping
+2019-10-18 15:56:17,345 - Main - INFO - request devices device UCPE3 ping
+result PING 20.20.72.153 (20.20.72.153) 56(84) bytes of data.
+64 bytes from 20.20.72.153: icmp_seq=1 ttl=59 time=2.75 ms
+
+--- 20.20.72.153 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 2.752/2.752/2.752/0.000 ms
+
+[ok][2019-10-18 10:26:17]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:17,351 - Main - INFO - CMD>> : request devices device UCPE3 connect
+2019-10-18 15:56:18,155 - Main - INFO - request devices device UCPE3 connect
+result true
+info (Automated) Connected to UCPE3 - 20.20.72.153:2022
+[ok][2019-10-18 10:26:18]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:18,158 - Main - INFO - CMD>> : request devices device UCPE3 check-sync
+2019-10-18 15:56:18,963 - Main - INFO - request devices device UCPE3 check-sync
+result in-sync
+[ok][2019-10-18 10:26:18]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:18,966 - Main - INFO - UCPE3 is in sync with VD & able to ping & connect
+2019-10-18 15:56:18,973 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:18,976 - Main - INFO - before_upgrade Actions for : UCPE7
+2019-10-18 15:56:18,977 - Main - INFO - <><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><><>
+2019-10-18 15:56:18,989 - Main - INFO - CMD>> : request devices device UCPE7 ping
+2019-10-18 15:56:19,596 - Main - INFO - request devices device UCPE7 ping
+result PING 20.20.72.157 (20.20.72.157) 56(84) bytes of data.
+64 bytes from 20.20.72.157: icmp_seq=1 ttl=59 time=3.58 ms
+
+--- 20.20.72.157 ping statistics ---
+1 packets transmitted, 1 received, 0% packet loss, time 0ms
+rtt min/avg/max/mdev = 3.588/3.588/3.588/0.000 ms
+
+[ok][2019-10-18 10:26:19]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:19,601 - Main - INFO - CMD>> : request devices device UCPE7 connect
+2019-10-18 15:56:20,421 - Main - INFO - request devices device UCPE7 connect
+result true
+info (Automated) Connected to UCPE7 - 20.20.72.157:2022
+[ok][2019-10-18 10:26:20]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:20,421 - Main - INFO - CMD>> : request devices device UCPE7 check-sync
+2019-10-18 15:56:21,224 - Main - INFO - request devices device UCPE7 check-sync
+result out-of-sync
+info got: 1571-390701-126228@vcn0 expected: 1571-335190-836174@vcn0
+
+[ok][2019-10-18 10:26:21]
+Automated@VDir-BLR-NEW-01> 
+2019-10-18 15:56:21,226 - Main - INFO - CPE out-of sync.
+2019-10-18 15:56:26,109 - Main - INFO - 
+2019-10-18 15:56:32,519 - Main - INFO - CPE5 : device already running with same package
+2019-10-18 15:56:33,729 - Main - INFO - CPE6 : device already running with same package
+2019-10-18 15:56:34,936 - Main - INFO - CPE8 : device already running with same package
+2019-10-18 15:56:36,144 - Main - INFO - UCPE3 : device already running with same package
+2019-10-18 15:56:41,009 - Main - INFO - 
+2019-10-18 15:56:46,233 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,234 - Main - INFO - cpe:CPE19
+2019-10-18 15:56:46,236 - Main - INFO - upgrade:VD --> CPE Request ping failed.
+2019-10-18 15:56:46,246 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,249 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,252 - Main - INFO - cpe:CPE22HKG-HYBRID
+2019-10-18 15:56:46,252 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 15:56:46,256 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,285 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,288 - Main - INFO - cpe:CPE23-SIN-HYBRID
+2019-10-18 15:56:46,289 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 15:56:46,289 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,292 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,293 - Main - INFO - cpe:CPE45-VoIP
+2019-10-18 15:56:46,295 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 15:56:46,295 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,296 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,296 - Main - INFO - cpe:CPE-14
+2019-10-18 15:56:46,298 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,299 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,299 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,301 - Main - INFO - cpe:CPE-50
+2019-10-18 15:56:46,301 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,302 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,302 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,303 - Main - INFO - cpe:CPE1-SIN-HYBRID
+2019-10-18 15:56:46,303 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,305 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,305 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,306 - Main - INFO - cpe:CPE16-SIN-MPLSONLY
+2019-10-18 15:56:46,308 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,309 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,309 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,311 - Main - INFO - cpe:CPE20
+2019-10-18 15:56:46,311 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,312 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,312 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,313 - Main - INFO - cpe:CPE25-Performance-DUT
+2019-10-18 15:56:46,315 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,315 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,315 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,316 - Main - INFO - cpe:CPE26-HKG2-DUAL-HYB-IPC00194
+2019-10-18 15:56:46,316 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,318 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,318 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,319 - Main - INFO - cpe:CPE27-HKG2-SINGLE-CPE-DUAL-INTERNET18
+2019-10-18 15:56:46,319 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,319 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,321 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,322 - Main - INFO - cpe:CPE31-Performance-810
+2019-10-18 15:56:46,325 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,325 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,325 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,328 - Main - INFO - cpe:CPE4-SIN-HYBRID
+2019-10-18 15:56:46,328 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,328 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,329 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,331 - Main - INFO - cpe:CPE7
+2019-10-18 15:56:46,331 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 15:56:46,331 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,332 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,334 - Main - INFO - cpe:UCPE7
+2019-10-18 15:56:46,334 - Main - INFO - upgrade:CPE out-of sync.
+2019-10-18 15:56:46,335 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,335 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,335 - Main - INFO - cpe:CPE5
+2019-10-18 15:56:46,336 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,336 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,338 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,338 - Main - INFO - cpe:CPE6
+2019-10-18 15:56:46,339 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,339 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,341 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,341 - Main - INFO - cpe:CPE8
+2019-10-18 15:56:46,342 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,342 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,342 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,344 - Main - INFO - cpe:UCPE3
+2019-10-18 15:56:46,344 - Main - INFO - upgrade:device already running with same package
+2019-10-18 15:56:46,345 - Main - INFO - ====================================================================================================
+2019-10-18 15:56:46,346 - Main - INFO - Time elapsed: 0:03:12.676000
+
+2019-10-18 15:56:46,348 - Main - INFO - Result Stored in C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL/LOGS/10.91.127.194_2019_10_18_15_53_33//RESULT.csv
+2019-10-18 15:56:46,348 - Main - INFO - LOG FILES Path: C:\Softwares_mine\newcode_download\PRODUCTION_UPGRADE_TOOL/LOGS/10.91.127.194_2019_10_18_15_53_33/
