@@ -292,7 +292,8 @@ def run_in_thread_to_take_states(cpe_name, i, state):
     cmd2 = 'show bgp neighbor org ' + org + ' brief | nomore'
     parse1 = parse_send_command(cpe_name, netconnect, cmd1, interface_template)
     parse2 = parse_send_command(cpe_name, netconnect, cmd2, bgp_nbr_template)
-    parse3 = parse_send_command(cpe_name, netconnect, cmd3, route_template)
+    # parse3 = parse_send_command(cpe_name, netconnect, cmd3, route_template)
+    parse3 = "NO route Check"
     parse4 = parse_send_command(cpe_name, netconnect, cmd4, show_config_template)
     parsed_dict[cpe_name + state] = {'packageinfo': pack_info['PACKAGE_NAME'], 'interfacelist': parse1,
                                      'bgpnbrlist': parse2, 'routelist': parse3, 'configlist': parse4}

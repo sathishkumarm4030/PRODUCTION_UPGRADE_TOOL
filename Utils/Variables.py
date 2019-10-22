@@ -101,7 +101,7 @@ vd_ssh_dict = {
 #     'port': '22',
 # }
 
-cmd1 = 'show interfaces brief | tab | nomore'
+cmd1 = 'show interfaces brief | tab | nomore | except vni-0/20'
 cmd2 = 'show bgp neighbor brief | nomore'
 cmd3 = 'show route | nomore'
 cmd4 = 'show configuration | display set | nomore'
